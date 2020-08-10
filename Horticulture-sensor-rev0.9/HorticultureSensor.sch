@@ -430,7 +430,7 @@ U 1 1 5F1F147E
 P 11700 6650
 F 0 "J4" H 11780 6642 50  0000 L CNN
 F 1 "Conn_01x04" H 11780 6551 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53398-0371_1x03-1MP_P1.25mm_Vertical" H 11700 6650 50  0001 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal" H 11700 6650 50  0001 C CNN
 F 3 "~" H 11700 6650 50  0001 C CNN
 	1    11700 6650
 	-1   0    0    1   
