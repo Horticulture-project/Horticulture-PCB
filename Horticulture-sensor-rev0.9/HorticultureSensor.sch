@@ -72,10 +72,10 @@ $EndComp
 Wire Wire Line
 	8250 6950 8200 6950
 $Comp
-L MCU_ST_STM32F0:STM32F030F4Px U6
+L MCU_ST_STM32F0:STM32F030F4Px U1
 U 1 1 5EF0F304
 P 8150 7650
-F 0 "U6" H 8150 8550 50  0000 C CNN
+F 0 "U1" H 8150 8550 50  0000 C CNN
 F 1 "STM32F030F4Px" H 8100 8450 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7750 6950 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 8150 7650 50  0001 C CNN
@@ -186,37 +186,6 @@ F 3 "http://ams.com/eng/Products/Environmental-Sensors/Relative-Humidity-and-Tem
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0105
-U 1 1 5F1DD92F
-P 10450 6600
-F 0 "#PWR0105" H 10450 6450 50  0001 C CNN
-F 1 "VCC" V 10465 6728 50  0000 L CNN
-F 2 "" H 10450 6600 50  0001 C CNN
-F 3 "" H 10450 6600 50  0001 C CNN
-	1    10450 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L dk_PMIC-Voltage-Regulators-Linear:MCP1700-3302E_TO U1
-U 1 1 5F1DED1A
-P 10250 5800
-F 0 "U1" H 10250 6087 60  0000 C CNN
-F 1 "MCP1700-3302E_TO" H 10250 5981 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10450 6000 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 10450 6100 60  0001 L CNN
-F 4 "MCP1700-3302E/TO-ND" H 10450 6200 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP1700-3302E/TO" H 10450 6300 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 10450 6400 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 10450 6500 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 10450 6600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP1700-3302E-TO/MCP1700-3302E-TO-ND/652680" H 10450 6700 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 250MA TO92-3" H 10450 6800 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 10450 6900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10450 7000 60  0001 L CNN "Status"
-	1    10250 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 5F1E05C2
 P 10250 6100
@@ -230,12 +199,12 @@ $EndComp
 $Comp
 L power:VCC #PWR0107
 U 1 1 5F1E05C8
-P 9950 5800
-F 0 "#PWR0107" H 9950 5650 50  0001 C CNN
-F 1 "VCC" V 9965 5928 50  0000 L CNN
-F 2 "" H 9950 5800 50  0001 C CNN
-F 3 "" H 9950 5800 50  0001 C CNN
-	1    9950 5800
+P 9750 5800
+F 0 "#PWR0107" H 9750 5650 50  0001 C CNN
+F 1 "VCC" V 9765 5928 50  0000 L CNN
+F 2 "" H 9750 5800 50  0001 C CNN
+F 3 "" H 9750 5800 50  0001 C CNN
+	1    9750 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -261,10 +230,9 @@ F 3 "~" H 10200 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 5800 9950 5350
+	9850 5800 9850 5350
 Wire Wire Line
-	9950 5350 10050 5350
-Connection ~ 9950 5800
+	9850 5350 10050 5350
 Wire Wire Line
 	10350 5350 10550 5350
 Wire Wire Line
@@ -273,12 +241,12 @@ Connection ~ 10550 5800
 $Comp
 L Device:C_Small C1
 U 1 1 5F1E3086
-P 9950 5900
-F 0 "C1" H 10042 5946 50  0000 L CNN
-F 1 "1 uF" H 10042 5855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9950 5900 50  0001 C CNN
-F 3 "~" H 9950 5900 50  0001 C CNN
-	1    9950 5900
+P 9850 5900
+F 0 "C1" H 9942 5946 50  0000 L CNN
+F 1 "1 uF" H 9942 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9850 5900 50  0001 C CNN
+F 3 "~" H 9850 5900 50  0001 C CNN
+	1    9850 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -298,9 +266,9 @@ Wire Wire Line
 Wire Wire Line
 	10550 6100 10250 6100
 Wire Wire Line
-	10250 6100 9950 6100
+	10250 6100 9850 6100
 Wire Wire Line
-	9950 6100 9950 6000
+	9850 6100 9850 6000
 Text GLabel 8650 7750 2    50   Input ~ 0
 i2c-addr_2
 Text GLabel 8650 7850 2    50   Input ~ 0
@@ -451,17 +419,6 @@ F 3 "" H 11900 6450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR0116
-U 1 1 5F1F148C
-P 11900 6550
-F 0 "#PWR0116" H 11900 6400 50  0001 C CNN
-F 1 "VCC" V 11915 6678 50  0000 L CNN
-F 2 "" H 11900 6550 50  0001 C CNN
-F 3 "" H 11900 6550 50  0001 C CNN
-	1    11900 6550
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J5
 U 1 1 5F1F2035
 P 11700 7150
@@ -496,49 +453,9 @@ F 3 "" H 11900 7250 50  0001 C CNN
 	1    11900 7250
 	0    1    1    0   
 $EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRLML2402TRPBF Q1
-U 1 1 5F1FF03A
-P 10750 8000
-F 0 "Q1" H 10858 8053 60  0000 L CNN
-F 1 "IRLML2030TRPBF" H 10858 7947 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 10950 8200 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml2402pbf.pdf?fileId=5546d462533600a401535664e5ef25fa" H 10950 8300 60  0001 L CNN
-F 4 "IRLML2402PBFCT-ND" H 10950 8400 60  0001 L CNN "Digi-Key_PN"
-F 5 "IRLML2402TRPBF" H 10950 8500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 10950 8600 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 10950 8700 60  0001 L CNN "Family"
-F 8 "https://www.infineon.com/dgdl/irlml2402pbf.pdf?fileId=5546d462533600a401535664e5ef25fa" H 10950 8800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/infineon-technologies/IRLML2402TRPBF/IRLML2402PBFCT-ND/812508" H 10950 8900 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 20V 1.2A SOT-23" H 10950 9000 60  0001 L CNN "Description"
-F 11 "Infineon Technologies" H 10950 9100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10950 9200 60  0001 L CNN "Status"
-	1    10750 8000
-	1    0    0    -1  
-$EndComp
 Text GLabel 10250 8100 0    50   Input ~ 0
 mosfet0
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRLML2402TRPBF Q2
-U 1 1 5F203655
-P 12650 7950
-F 0 "Q2" H 12758 8003 60  0000 L CNN
-F 1 "IRLML2030TRPBF" H 12758 7897 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 12850 8150 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml2402pbf.pdf?fileId=5546d462533600a401535664e5ef25fa" H 12850 8250 60  0001 L CNN
-F 4 "IRLML2402PBFCT-ND" H 12850 8350 60  0001 L CNN "Digi-Key_PN"
-F 5 "IRLML2402TRPBF" H 12850 8450 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 12850 8550 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 12850 8650 60  0001 L CNN "Family"
-F 8 "https://www.infineon.com/dgdl/irlml2402pbf.pdf?fileId=5546d462533600a401535664e5ef25fa" H 12850 8750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/infineon-technologies/IRLML2402TRPBF/IRLML2402PBFCT-ND/812508" H 12850 8850 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 20V 1.2A SOT-23" H 12850 8950 60  0001 L CNN "Description"
-F 11 "Infineon Technologies" H 12850 9050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12850 9150 60  0001 L CNN "Status"
-	1    12650 7950
-	1    0    0    -1  
-$EndComp
-Text GLabel 12150 8050 0    50   Input ~ 0
+Text GLabel 12150 7950 0    50   Input ~ 0
 mosfet1
 $Comp
 L power:GND #PWR0121
@@ -554,12 +471,12 @@ $EndComp
 $Comp
 L power:GND #PWR0122
 U 1 1 5F203FD3
-P 10750 8200
-F 0 "#PWR0122" H 10750 7950 50  0001 C CNN
-F 1 "GND" H 10755 8027 50  0000 C CNN
-F 2 "" H 10750 8200 50  0001 C CNN
-F 3 "" H 10750 8200 50  0001 C CNN
-	1    10750 8200
+P 10750 8300
+F 0 "#PWR0122" H 10750 8050 50  0001 C CNN
+F 1 "GND" H 10755 8127 50  0000 C CNN
+F 2 "" H 10750 8300 50  0001 C CNN
+F 3 "" H 10750 8300 50  0001 C CNN
+	1    10750 8300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -584,7 +501,7 @@ F 3 "~" H 12850 7050 50  0001 C CNN
 	1    12850 7050
 	-1   0    0    1   
 $EndComp
-Text GLabel 10750 7800 1    50   Input ~ 0
+Text GLabel 10750 7900 1    50   Input ~ 0
 control_0
 Text GLabel 12650 7750 1    50   Input ~ 0
 control_1
@@ -593,36 +510,14 @@ control_0
 Text GLabel 13050 6950 2    50   Input ~ 0
 control_1
 $Comp
-L power:VCC #PWR0123
-U 1 1 5F20B6C7
-P 13050 6550
-F 0 "#PWR0123" H 13050 6400 50  0001 C CNN
-F 1 "VCC" V 13065 6678 50  0000 L CNN
-F 2 "" H 13050 6550 50  0001 C CNN
-F 3 "" H 13050 6550 50  0001 C CNN
-	1    13050 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0124
-U 1 1 5F20C48A
-P 13050 7050
-F 0 "#PWR0124" H 13050 6900 50  0001 C CNN
-F 1 "VCC" V 13065 7178 50  0000 L CNN
-F 2 "" H 13050 7050 50  0001 C CNN
-F 3 "" H 13050 7050 50  0001 C CNN
-	1    13050 7050
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small R2
 U 1 1 5F2107E9
-P 12250 8050
-F 0 "R2" V 12054 8050 50  0000 C CNN
-F 1 "10 kohm" V 12145 8050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 12250 8050 50  0001 C CNN
-F 3 "~" H 12250 8050 50  0001 C CNN
-	1    12250 8050
+P 12250 7950
+F 0 "R2" V 12054 7950 50  0000 C CNN
+F 1 "10 kohm" V 12145 7950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 12250 7950 50  0001 C CNN
+F 3 "~" H 12250 7950 50  0001 C CNN
+	1    12250 7950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -656,47 +551,130 @@ NoConn ~ 7650 7950
 NoConn ~ 7650 8050
 NoConn ~ 7650 8250
 $Comp
-L Connector_Generic_MountingPin:Conn_01x01_MountingPin J8
-U 1 1 5F23DCBD
-P 8650 9000
-F 0 "J8" H 8738 8964 50  0000 L CNN
-F 1 "Conn_01x01_MountingPin" H 8738 8873 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8650 9000 50  0001 C CNN
-F 3 "~" H 8650 9000 50  0001 C CNN
-	1    8650 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_01x01_MountingPin J9
-U 1 1 5F23E97E
-P 8650 9400
-F 0 "J9" H 8738 9364 50  0000 L CNN
-F 1 "Conn_01x01_MountingPin" H 8738 9273 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8650 9400 50  0001 C CNN
-F 3 "~" H 8650 9400 50  0001 C CNN
-	1    8650 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 5F23EE66
-P 8450 9000
-F 0 "#PWR0126" H 8450 8750 50  0001 C CNN
-F 1 "GND" H 8455 8827 50  0000 C CNN
-F 2 "" H 8450 9000 50  0001 C CNN
-F 3 "" H 8450 9000 50  0001 C CNN
-	1    8450 9000
+L power:+3.3V #PWR0105
+U 1 1 5F355D47
+P 10450 6600
+F 0 "#PWR0105" H 10450 6450 50  0001 C CNN
+F 1 "+3.3V" V 10465 6728 50  0000 L CNN
+F 2 "" H 10450 6600 50  0001 C CNN
+F 3 "" H 10450 6600 50  0001 C CNN
+	1    10450 6600
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0127
-U 1 1 5F23F0F3
-P 8450 9400
-F 0 "#PWR0127" H 8450 9150 50  0001 C CNN
-F 1 "GND" H 8455 9227 50  0000 C CNN
-F 2 "" H 8450 9400 50  0001 C CNN
-F 3 "" H 8450 9400 50  0001 C CNN
-	1    8450 9400
+L power:+3.3V #PWR0116
+U 1 1 5F355FAD
+P 11900 6550
+F 0 "#PWR0116" H 11900 6400 50  0001 C CNN
+F 1 "+3.3V" V 11915 6678 50  0000 L CNN
+F 2 "" H 11900 6550 50  0001 C CNN
+F 3 "" H 11900 6550 50  0001 C CNN
+	1    11900 6550
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5F35653E
+P 12850 6000
+F 0 "J8" H 12768 5675 50  0000 C CNN
+F 1 "Conn_01x02" H 12768 5766 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 12850 6000 50  0001 C CNN
+F 3 "~" H 12850 6000 50  0001 C CNN
+	1    12850 6000
+	-1   0    0    1   
+$EndComp
+Text GLabel 13050 5900 2    50   Input ~ 0
+12V+
+Text GLabel 13050 6000 2    50   Input ~ 0
+12V-
+$Comp
+L Transistor_FET:IRLML0030 Q2
+U 1 1 5F35731A
+P 12550 7950
+F 0 "Q2" H 12755 7996 50  0000 L CNN
+F 1 "IRLML2030TRPBF" H 12755 7905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12750 7875 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df" H 12550 7950 50  0001 L CNN
+	1    12550 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLML0030 Q1
+U 1 1 5F36376E
+P 10650 8100
+F 0 "Q1" H 10855 8146 50  0000 L CNN
+F 1 "IRLML2030TRPBF" H 10855 8055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10850 8025 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df" H 10650 8100 50  0001 L CNN
+	1    10650 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MCP1700-1202E_SOT23 U3
+U 1 1 5F36787F
+P 10250 5800
+F 0 "U3" H 10250 6042 50  0000 C CNN
+F 1 "MCP1700-3302E_TO" H 10250 5951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10250 6025 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 10250 5800 50  0001 C CNN
+	1    10250 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 13050 6550 2    50   Input ~ 0
+12V+
+Text GLabel 13050 7050 2    50   Input ~ 0
+12V+
+Text GLabel 12650 8150 2    50   Input ~ 0
+12V-
+Text GLabel 10750 8300 2    50   Input ~ 0
+12V-
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F36BCD4
+P 8850 8700
+F 0 "H1" H 8950 8749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8950 8658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8850 8700 50  0001 C CNN
+F 3 "~" H 8850 8700 50  0001 C CNN
+	1    8850 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5F36CD1E
+P 8850 8800
+F 0 "#PWR0123" H 8850 8550 50  0001 C CNN
+F 1 "GND" H 8855 8627 50  0000 C CNN
+F 2 "" H 8850 8800 50  0001 C CNN
+F 3 "" H 8850 8800 50  0001 C CNN
+	1    8850 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F36DD7E
+P 8850 9150
+F 0 "H2" H 8950 9199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8950 9108 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8850 9150 50  0001 C CNN
+F 3 "~" H 8850 9150 50  0001 C CNN
+	1    8850 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5F36DD84
+P 8850 9250
+F 0 "#PWR0124" H 8850 9000 50  0001 C CNN
+F 1 "GND" H 8855 9077 50  0000 C CNN
+F 2 "" H 8850 9250 50  0001 C CNN
+F 3 "" H 8850 9250 50  0001 C CNN
+	1    8850 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5800 9850 5800
+Connection ~ 9850 5800
+Wire Wire Line
+	9750 5800 9850 5800
 $EndSCHEMATC
