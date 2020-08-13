@@ -94,7 +94,7 @@ U 1 1 5F1D35E2
 P 10250 7150
 F 0 "J3" H 10330 7192 50  0000 L CNN
 F 1 "Conn_01x03" H 10330 7101 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical" H 10250 7150 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 10250 7150 50  0001 C CNN
 F 3 "~" H 10250 7150 50  0001 C CNN
 	1    10250 7150
 	-1   0    0    1   
@@ -105,7 +105,7 @@ U 1 1 5F1D3F0F
 P 10250 6700
 F 0 "J1" H 10330 6692 50  0000 L CNN
 F 1 "Conn_01x04" H 10330 6601 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal" H 10250 6700 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 10250 6700 50  0001 C CNN
 F 3 "~" H 10250 6700 50  0001 C CNN
 	1    10250 6700
 	-1   0    0    1   
@@ -275,7 +275,7 @@ Text GLabel 8650 7850 2    50   Input ~ 0
 i2c-addr_3
 Text GLabel 8650 7550 2    50   Input ~ 0
 i2c-addr_0
-Text GLabel 8650 7450 2    50   Input ~ 0
+Text GLabel 8650 7350 2    50   Input ~ 0
 mosfet1
 Text GLabel 10350 8750 0    50   Input ~ 0
 i2c-addr_0
@@ -390,7 +390,7 @@ F 3 "" H 11900 9100 50  0001 C CNN
 $EndComp
 Text GLabel 8650 7150 2    50   Input ~ 0
 AnalogSignal0
-Text GLabel 8650 7350 2    50   Input ~ 0
+Text GLabel 8650 7450 2    50   Input ~ 0
 mosfet0
 $Comp
 L Connector_Generic:Conn_01x04 J4
@@ -398,7 +398,7 @@ U 1 1 5F1F147E
 P 11700 6650
 F 0 "J4" H 11780 6642 50  0000 L CNN
 F 1 "Conn_01x04" H 11780 6551 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal" H 11700 6650 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 11700 6650 50  0001 C CNN
 F 3 "~" H 11700 6650 50  0001 C CNN
 	1    11700 6650
 	-1   0    0    1   
@@ -424,7 +424,7 @@ U 1 1 5F1F2035
 P 11700 7150
 F 0 "J5" H 11780 7192 50  0000 L CNN
 F 1 "Conn_01x03" H 11780 7101 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical" H 11700 7150 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 11700 7150 50  0001 C CNN
 F 3 "~" H 11700 7150 50  0001 C CNN
 	1    11700 7150
 	-1   0    0    1   
@@ -551,28 +551,6 @@ NoConn ~ 7650 7950
 NoConn ~ 7650 8050
 NoConn ~ 7650 8250
 $Comp
-L power:+3.3V #PWR0105
-U 1 1 5F355D47
-P 10450 6600
-F 0 "#PWR0105" H 10450 6450 50  0001 C CNN
-F 1 "+3.3V" V 10465 6728 50  0000 L CNN
-F 2 "" H 10450 6600 50  0001 C CNN
-F 3 "" H 10450 6600 50  0001 C CNN
-	1    10450 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0116
-U 1 1 5F355FAD
-P 11900 6550
-F 0 "#PWR0116" H 11900 6400 50  0001 C CNN
-F 1 "+3.3V" V 11915 6678 50  0000 L CNN
-F 2 "" H 11900 6550 50  0001 C CNN
-F 3 "" H 11900 6550 50  0001 C CNN
-	1    11900 6550
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J8
 U 1 1 5F35653E
 P 12850 6000
@@ -677,4 +655,26 @@ Wire Wire Line
 Connection ~ 9850 5800
 Wire Wire Line
 	9750 5800 9850 5800
+$Comp
+L power:VCC #PWR0105
+U 1 1 5F38DC6C
+P 10450 6600
+F 0 "#PWR0105" H 10450 6450 50  0001 C CNN
+F 1 "VCC" V 10465 6728 50  0000 L CNN
+F 2 "" H 10450 6600 50  0001 C CNN
+F 3 "" H 10450 6600 50  0001 C CNN
+	1    10450 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0116
+U 1 1 5F38E28F
+P 11900 6550
+F 0 "#PWR0116" H 11900 6400 50  0001 C CNN
+F 1 "VCC" V 11915 6678 50  0000 L CNN
+F 2 "" H 11900 6550 50  0001 C CNN
+F 3 "" H 11900 6550 50  0001 C CNN
+	1    11900 6550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
