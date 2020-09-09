@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Adafruit_FeatherWing)(type KiCad)(uri ${KIPRJMOD}/Adafruit_FeatherWing.pretty)(options "")(descr ""))
-  (lib (name KiCad-SSD1306_OLED-0)(type KiCad)(uri ${KIPRJMOD}/KiCad-SSD1306_OLED-0.91-128x32)(options "")(descr ""))
-)

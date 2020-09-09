@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name particle-boards)(type Legacy)(uri ${KIPRJMOD}/particle-boards.lib)(options "")(descr "")(disabled))
+  (lib (name test-rescue)(type Legacy)(uri ${KIPRJMOD}/test-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name particle)(type Legacy)(uri ${KIPRJMOD}/particle.lib)(options "")(descr ""))
+)
