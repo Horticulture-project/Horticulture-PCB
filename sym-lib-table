@@ -3,4 +3,5 @@
   (lib (name test-rescue)(type Legacy)(uri ${KIPRJMOD}/test-rescue.lib)(options "")(descr "")(disabled))
   (lib (name particle)(type Legacy)(uri ${KIPRJMOD}/particle.lib)(options "")(descr ""))
   (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri ${KIPRJMOD}/KiCad-SSD1306_OLED-0.91-128x32/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
+  (lib (name Horticulture-rescue)(type Legacy)(uri ${KIPRJMOD}/Horticulture-rescue.lib)(options "")(descr ""))
 )
