@@ -1,5 +1,0 @@
-FB         - https://www.digikey.no/product-detail/no/w%C3%BCrth-elektronik/742792620/732-1579-6-ND/1639910
-Cap        - https://www.digikey.no/product-detail/no/avx-corporation/TAJC106M025RNJ/478-3896-6-ND/1127060
-Fuse       - https://www.digikey.no/product-detail/no/littelfuse-inc/1210L020WR/F3350DKR-ND/2063113
-Rotary enc - https://no.rs-online.com/web/p/mechanical-rotary-encoders/7295722/
-Oled       - https://www.amazon.com/MakerFocus-Display-SSD1306-3-3V-5V-Arduino/dp/B0761LV1SD?ref_=fsclp_pl_dp_1
