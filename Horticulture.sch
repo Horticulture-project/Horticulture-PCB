@@ -662,7 +662,7 @@ Wire Wire Line
 Wire Wire Line
 	12750 8000 12950 8000
 Connection ~ 12950 8000
-Text GLabel 7650 7150 0    50   Input ~ 0
+Text GLabel 7450 7150 0    50   Input ~ 0
 nRESET
 Text GLabel 8650 8250 2    50   Input ~ 0
 SWD-SWCLK
@@ -730,7 +730,7 @@ F 3 "" H 8150 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 6950 8150 6950
+	8250 6950 8200 6950
 $Comp
 L MCU_ST_STM32F0:STM32F030F4Px U6
 U 1 1 5EF0F304
@@ -1408,4 +1408,29 @@ F 3 "~" H 11450 6400 50  0001 C CNN
 	1    11450 6400
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FC6BC68
+P 7600 6950
+F 0 "R?" H 7659 6996 50  0000 L CNN
+F 1 "10K2" H 7659 6905 50  0000 L CNN
+F 2 "" H 7600 6950 50  0001 C CNN
+F 3 "~" H 7600 6950 50  0001 C CNN
+	1    7600 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 7150 7600 7150
+Wire Wire Line
+	7600 7050 7600 7150
+Connection ~ 7600 7150
+Wire Wire Line
+	7600 7150 7650 7150
+Wire Wire Line
+	7600 6850 8200 6850
+Wire Wire Line
+	8200 6850 8200 6950
+Connection ~ 8200 6950
+Wire Wire Line
+	8200 6950 8150 6950
 $EndSCHEMATC
