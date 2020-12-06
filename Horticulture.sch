@@ -1433,4 +1433,32 @@ Wire Wire Line
 Connection ~ 8200 6950
 Wire Wire Line
 	8200 6950 8150 6950
+Text GLabel 13650 5300 0    50   Input ~ 0
++3.3V
+$Comp
+L power:GND #PWR0126
+U 1 1 5FCD9F7E
+P 13650 5600
+F 0 "#PWR0126" H 13650 5350 50  0001 C CNN
+F 1 "GND" V 13655 5472 50  0000 R CNN
+F 2 "" H 13650 5600 50  0001 C CNN
+F 3 "" H 13650 5600 50  0001 C CNN
+	1    13650 5600
+	0    1    1    0   
+$EndComp
+Text GLabel 13650 5500 0    50   Input ~ 0
+I2c-SCL
+Text GLabel 13650 5400 0    50   Input ~ 0
+I2c-SDA
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5FCECF34
+P 13850 5500
+F 0 "J1" H 13822 5382 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 13822 5473 50  0000 R CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 13850 5500 50  0001 C CNN
+F 3 "~" H 13850 5500 50  0001 C CNN
+	1    13850 5500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
