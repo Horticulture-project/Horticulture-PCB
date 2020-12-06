@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Horticulture"
-Date ""
-Rev ""
-Comp ""
+Title "Horticulture LED"
+Date "2020-12-06"
+Rev "3.2.1"
+Comp "Horticulture project"
 Comment1 ""
 Comment2 ""
 Comment3 ""
