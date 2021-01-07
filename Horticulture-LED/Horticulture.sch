@@ -18,7 +18,7 @@ UC-pwm4
 Wire Wire Line
 	2950 6100 2950 6300
 $Comp
-L test-rescue:GND-power #PWR0101
+L Horticulture-rescue:GND-power-test-rescue #PWR0101
 U 1 1 5EEF5ADC
 P 2950 6300
 F 0 "#PWR0101" H 2950 6050 50  0001 C CNN
@@ -39,18 +39,18 @@ Wire Wire Line
 Wire Wire Line
 	8600 5850 8600 5950
 $Comp
-L test-rescue:R_Small-Device R4
+L Horticulture-rescue:R_Small-Device-test-rescue R4
 U 1 1 5EEED184
 P 8600 5750
 F 0 "R4" H 8659 5796 50  0000 L CNN
-F 1 "R_Small" H 8659 5705 50  0000 L CNN
+F 1 "0R39 current sense" H 8659 5705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 5750 50  0001 C CNN
 F 3 "~" H 8600 5750 50  0001 C CNN
 	1    8600 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L test-rescue:TLE4309-Driver_LED U4
+L Horticulture-rescue:TLE4309-Driver_LED-test-rescue U4
 U 1 1 5EEDC8ED
 P 2950 5800
 F 0 "U4" H 2950 6167 50  0000 C CNN
@@ -63,7 +63,7 @@ $EndComp
 Wire Wire Line
 	8600 5550 8600 5650
 $Comp
-L test-rescue:GND-power #PWR0102
+L Horticulture-rescue:GND-power-test-rescue #PWR0102
 U 1 1 5EEC5AAB
 P 8600 5950
 F 0 "#PWR0102" H 8600 5700 50  0001 C CNN
@@ -78,7 +78,7 @@ UC-pwm3
 Wire Wire Line
 	2950 4600 2950 4800
 $Comp
-L test-rescue:GND-power #PWR0103
+L Horticulture-rescue:GND-power-test-rescue #PWR0103
 U 1 1 5EEFF231
 P 2950 4800
 F 0 "#PWR0103" H 2950 4550 50  0001 C CNN
@@ -99,18 +99,18 @@ Wire Wire Line
 Wire Wire Line
 	8600 4350 8600 4450
 $Comp
-L test-rescue:R_Small-Device R3
+L Horticulture-rescue:R_Small-Device-test-rescue R3
 U 1 1 5EEFF240
 P 8600 4250
 F 0 "R3" H 8659 4296 50  0000 L CNN
-F 1 "R_Small" H 8659 4205 50  0000 L CNN
+F 1 "0R39 current sense" H 8659 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 4250 50  0001 C CNN
 F 3 "~" H 8600 4250 50  0001 C CNN
 	1    8600 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L test-rescue:TLE4309-Driver_LED U3
+L Horticulture-rescue:TLE4309-Driver_LED-test-rescue U3
 U 1 1 5EEFF24B
 P 2950 4300
 F 0 "U3" H 2950 4667 50  0000 C CNN
@@ -123,7 +123,7 @@ $EndComp
 Wire Wire Line
 	8600 4050 8600 4150
 $Comp
-L test-rescue:GND-power #PWR0104
+L Horticulture-rescue:GND-power-test-rescue #PWR0104
 U 1 1 5EEFF258
 P 8600 4450
 F 0 "#PWR0104" H 8600 4200 50  0001 C CNN
@@ -136,7 +136,7 @@ $EndComp
 Wire Wire Line
 	2950 3200 2950 3400
 $Comp
-L test-rescue:GND-power #PWR0105
+L Horticulture-rescue:GND-power-test-rescue #PWR0105
 U 1 1 5EF0699A
 P 2950 3400
 F 0 "#PWR0105" H 2950 3150 50  0001 C CNN
@@ -157,18 +157,18 @@ Wire Wire Line
 Wire Wire Line
 	8600 2950 8600 3050
 $Comp
-L test-rescue:R_Small-Device R2
+L Horticulture-rescue:R_Small-Device-test-rescue R2
 U 1 1 5EF069A9
 P 8600 2850
 F 0 "R2" H 8659 2896 50  0000 L CNN
-F 1 "R_Small" H 8659 2805 50  0000 L CNN
+F 1 "0R39 current sense" H 8659 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 2850 50  0001 C CNN
 F 3 "~" H 8600 2850 50  0001 C CNN
 	1    8600 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L test-rescue:TLE4309-Driver_LED U2
+L Horticulture-rescue:TLE4309-Driver_LED-test-rescue U2
 U 1 1 5EF069B4
 P 2950 2900
 F 0 "U2" H 2950 3267 50  0000 C CNN
@@ -181,7 +181,7 @@ $EndComp
 Wire Wire Line
 	8600 2650 8600 2750
 $Comp
-L test-rescue:GND-power #PWR0106
+L Horticulture-rescue:GND-power-test-rescue #PWR0106
 U 1 1 5EF069C1
 P 8600 3050
 F 0 "#PWR0106" H 8600 2800 50  0001 C CNN
@@ -196,7 +196,7 @@ UC-pwm1
 Wire Wire Line
 	2950 1900 2950 2100
 $Comp
-L test-rescue:GND-power #PWR0107
+L Horticulture-rescue:GND-power-test-rescue #PWR0107
 U 1 1 5EF11D41
 P 2950 2100
 F 0 "#PWR0107" H 2950 1850 50  0001 C CNN
@@ -217,11 +217,11 @@ Wire Wire Line
 Wire Wire Line
 	8600 1650 8600 1750
 $Comp
-L test-rescue:R_Small-Device R1
+L Horticulture-rescue:R_Small-Device-test-rescue R1
 U 1 1 5EF11D50
 P 8600 1550
 F 0 "R1" H 8659 1596 50  0000 L CNN
-F 1 "R_Small" H 8659 1505 50  0000 L CNN
+F 1 "0R39 current sense" H 8659 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 1550 50  0001 C CNN
 F 3 "~" H 8600 1550 50  0001 C CNN
 	1    8600 1550
@@ -230,7 +230,7 @@ $EndComp
 Wire Wire Line
 	3350 1350 4400 1350
 $Comp
-L test-rescue:TLE4309-Driver_LED U1
+L Horticulture-rescue:TLE4309-Driver_LED-test-rescue U1
 U 1 1 5EF11D5B
 P 2950 1600
 F 0 "U1" H 2950 1967 50  0000 C CNN
@@ -246,7 +246,7 @@ Connection ~ 8500 1350
 Wire Wire Line
 	8450 1350 8500 1350
 $Comp
-L test-rescue:GND-power #PWR0108
+L Horticulture-rescue:GND-power-test-rescue #PWR0108
 U 1 1 5EF11D68
 P 8600 1750
 F 0 "#PWR0108" H 8600 1500 50  0001 C CNN
@@ -267,7 +267,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1350 5200 1350
 $Comp
-L test-rescue:LED-Device D6
+L Horticulture-rescue:LED-Device-test-rescue D6
 U 1 1 5EF11D77
 P 8300 1350
 F 0 "D6" H 8293 1567 50  0000 C CNN
@@ -278,7 +278,7 @@ F 3 "~" H 8300 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D5
+L Horticulture-rescue:LED-Device-test-rescue D5
 U 1 1 5EF11D81
 P 7550 1350
 F 0 "D5" H 7543 1567 50  0000 C CNN
@@ -289,7 +289,7 @@ F 3 "~" H 7550 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D4
+L Horticulture-rescue:LED-Device-test-rescue D4
 U 1 1 5EF11D8B
 P 6750 1350
 F 0 "D4" H 6743 1567 50  0000 C CNN
@@ -300,7 +300,7 @@ F 3 "~" H 6750 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D3
+L Horticulture-rescue:LED-Device-test-rescue D3
 U 1 1 5EF11D95
 P 6000 1350
 F 0 "D3" H 5993 1567 50  0000 C CNN
@@ -311,7 +311,7 @@ F 3 "~" H 6000 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D2
+L Horticulture-rescue:LED-Device-test-rescue D2
 U 1 1 5EF11D9F
 P 5350 1350
 F 0 "D2" H 5343 1567 50  0000 C CNN
@@ -322,7 +322,7 @@ F 3 "~" H 5350 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D1
+L Horticulture-rescue:LED-Device-test-rescue D1
 U 1 1 5EF11DA9
 P 4550 1350
 F 0 "D1" H 4543 1567 50  0000 C CNN
@@ -348,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4050 5200 4050
 $Comp
-L test-rescue:LED-Device D18
+L Horticulture-rescue:LED-Device-test-rescue D18
 U 1 1 5EED18C4
 P 8300 4050
 F 0 "D18" H 8293 4267 50  0000 C CNN
@@ -359,7 +359,7 @@ F 3 "~" H 8300 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D17
+L Horticulture-rescue:LED-Device-test-rescue D17
 U 1 1 5EED18CA
 P 7550 4050
 F 0 "D17" H 7543 4267 50  0000 C CNN
@@ -370,7 +370,7 @@ F 3 "~" H 7550 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D16
+L Horticulture-rescue:LED-Device-test-rescue D16
 U 1 1 5EED18D0
 P 6750 4050
 F 0 "D16" H 6743 4267 50  0000 C CNN
@@ -381,7 +381,7 @@ F 3 "~" H 6750 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D15
+L Horticulture-rescue:LED-Device-test-rescue D15
 U 1 1 5EED18D6
 P 6000 4050
 F 0 "D15" H 5993 4267 50  0000 C CNN
@@ -392,7 +392,7 @@ F 3 "~" H 6000 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D14
+L Horticulture-rescue:LED-Device-test-rescue D14
 U 1 1 5EED18DC
 P 5350 4050
 F 0 "D14" H 5343 4267 50  0000 C CNN
@@ -403,7 +403,7 @@ F 3 "~" H 5350 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D13
+L Horticulture-rescue:LED-Device-test-rescue D13
 U 1 1 5EED18E2
 P 4550 4050
 F 0 "D13" H 4543 4267 50  0000 C CNN
@@ -428,7 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 5550 5200 5550
 $Comp
-L test-rescue:LED-Device D24
+L Horticulture-rescue:LED-Device-test-rescue D24
 U 1 1 5EED38D5
 P 8300 5550
 F 0 "D24" H 8293 5767 50  0000 C CNN
@@ -439,7 +439,7 @@ F 3 "~" H 8300 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D23
+L Horticulture-rescue:LED-Device-test-rescue D23
 U 1 1 5EED38DB
 P 7550 5550
 F 0 "D23" H 7543 5767 50  0000 C CNN
@@ -450,7 +450,7 @@ F 3 "~" H 7550 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D22
+L Horticulture-rescue:LED-Device-test-rescue D22
 U 1 1 5EED38E1
 P 6750 5550
 F 0 "D22" H 6743 5767 50  0000 C CNN
@@ -461,7 +461,7 @@ F 3 "~" H 6750 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D21
+L Horticulture-rescue:LED-Device-test-rescue D21
 U 1 1 5EED38E7
 P 6000 5550
 F 0 "D21" H 5993 5767 50  0000 C CNN
@@ -472,7 +472,7 @@ F 3 "~" H 6000 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D20
+L Horticulture-rescue:LED-Device-test-rescue D20
 U 1 1 5EED38ED
 P 5350 5550
 F 0 "D20" H 5343 5767 50  0000 C CNN
@@ -483,7 +483,7 @@ F 3 "~" H 5350 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D19
+L Horticulture-rescue:LED-Device-test-rescue D19
 U 1 1 5EED38F3
 P 4550 5550
 F 0 "D19" H 4543 5767 50  0000 C CNN
@@ -494,7 +494,7 @@ F 3 "~" H 4550 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D7
+L Horticulture-rescue:LED-Device-test-rescue D7
 U 1 1 5EECB202
 P 4550 2650
 F 0 "D7" H 4543 2867 50  0000 C CNN
@@ -505,7 +505,7 @@ F 3 "~" H 4550 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D8
+L Horticulture-rescue:LED-Device-test-rescue D8
 U 1 1 5EECB1F8
 P 5350 2650
 F 0 "D8" H 5343 2867 50  0000 C CNN
@@ -516,7 +516,7 @@ F 3 "~" H 5350 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D9
+L Horticulture-rescue:LED-Device-test-rescue D9
 U 1 1 5EECB1EE
 P 6000 2650
 F 0 "D9" H 5993 2867 50  0000 C CNN
@@ -527,7 +527,7 @@ F 3 "~" H 6000 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D10
+L Horticulture-rescue:LED-Device-test-rescue D10
 U 1 1 5EECB1E4
 P 6750 2650
 F 0 "D10" H 6743 2867 50  0000 C CNN
@@ -538,7 +538,7 @@ F 3 "~" H 6750 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D11
+L Horticulture-rescue:LED-Device-test-rescue D11
 U 1 1 5EECB1DA
 P 7550 2650
 F 0 "D11" H 7543 2867 50  0000 C CNN
@@ -549,7 +549,7 @@ F 3 "~" H 7550 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L test-rescue:LED-Device D12
+L Horticulture-rescue:LED-Device-test-rescue D12
 U 1 1 5EECB1D0
 P 8300 2650
 F 0 "D12" H 8293 2867 50  0000 C CNN
@@ -576,7 +576,7 @@ Wire Wire Line
 Connection ~ 8500 4050
 Connection ~ 8500 5550
 $Comp
-L test-rescue:VDC-power #PWR0109
+L Horticulture-rescue:VDC-power-test-rescue #PWR0109
 U 1 1 5EF8E4D7
 P 2550 1500
 F 0 "#PWR0109" H 2550 1400 50  0001 C CNN
@@ -587,7 +587,7 @@ F 3 "" H 2550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L test-rescue:VDC-power #PWR0110
+L Horticulture-rescue:VDC-power-test-rescue #PWR0110
 U 1 1 5EF8EE2A
 P 2550 2800
 F 0 "#PWR0110" H 2550 2700 50  0001 C CNN
@@ -598,7 +598,7 @@ F 3 "" H 2550 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L test-rescue:VDC-power #PWR0111
+L Horticulture-rescue:VDC-power-test-rescue #PWR0111
 U 1 1 5EF8F8CE
 P 2550 4200
 F 0 "#PWR0111" H 2550 4100 50  0001 C CNN
@@ -609,7 +609,7 @@ F 3 "" H 2550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L test-rescue:VDC-power #PWR0112
+L Horticulture-rescue:VDC-power-test-rescue #PWR0112
 U 1 1 5EF9014F
 P 2550 5700
 F 0 "#PWR0112" H 2550 5600 50  0001 C CNN
@@ -955,7 +955,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 7700 12950 7800
 $Comp
-L test-rescue:GND-power #PWR0113
+L Horticulture-rescue:GND-power-test-rescue #PWR0113
 U 1 1 5F5E9A88
 P 11600 4500
 F 0 "#PWR0113" H 11600 4250 50  0001 C CNN
