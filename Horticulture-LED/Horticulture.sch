@@ -39,17 +39,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 5850 8600 5950
 $Comp
-L Horticulture-rescue:R_Small-Device-test-rescue R4
-U 1 1 5EEED184
-P 8600 5750
-F 0 "R4" H 8659 5796 50  0000 L CNN
-F 1 "0R39 current sense" H 8659 5705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 5750 50  0001 C CNN
-F 3 "~" H 8600 5750 50  0001 C CNN
-	1    8600 5750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Horticulture-rescue:TLE4309-Driver_LED-test-rescue U4
 U 1 1 5EEDC8ED
 P 2950 5800
@@ -103,7 +92,7 @@ L Horticulture-rescue:R_Small-Device-test-rescue R3
 U 1 1 5EEFF240
 P 8600 4250
 F 0 "R3" H 8659 4296 50  0000 L CNN
-F 1 "0R39 current sense" H 8659 4205 50  0000 L CNN
+F 1 "1ohm" H 8659 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 4250 50  0001 C CNN
 F 3 "~" H 8600 4250 50  0001 C CNN
 	1    8600 4250
@@ -161,7 +150,7 @@ L Horticulture-rescue:R_Small-Device-test-rescue R2
 U 1 1 5EF069A9
 P 8600 2850
 F 0 "R2" H 8659 2896 50  0000 L CNN
-F 1 "0R39 current sense" H 8659 2805 50  0000 L CNN
+F 1 "1ohm" H 8659 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 2850 50  0001 C CNN
 F 3 "~" H 8600 2850 50  0001 C CNN
 	1    8600 2850
@@ -619,49 +608,10 @@ F 3 "" H 2550 5700 50  0001 C CNN
 	1    2550 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5EF0F96A
-P 13150 8000
-F 0 "J2" H 13200 8417 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 13200 8326 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 13150 8000 50  0001 C CNN
-F 3 "~" H 13150 8000 50  0001 C CNN
-	1    13150 8000
-	1    0    0    -1  
-$EndComp
-Text GLabel 12950 7800 0    50   Input ~ 0
-SWD-VDD-Target
-Text GLabel 13450 8200 2    50   Input ~ 0
-nRESET
-Text GLabel 13450 8000 2    50   Input ~ 0
-SWD-SWO
-Text GLabel 13450 7900 2    50   Input ~ 0
+Text GLabel 13150 7750 0    50   Input ~ 0
 SWD-SWCLK
-Text GLabel 13450 7800 2    50   Input ~ 0
+Text GLabel 13150 7650 0    50   Input ~ 0
 SWD-SWIO
-Text GLabel 12950 7900 0    50   Input ~ 0
-SWD-GND
-Wire Wire Line
-	12950 8000 12950 7900
-$Comp
-L power:GND #PWR0118
-U 1 1 5EF17CE3
-P 12600 8050
-F 0 "#PWR0118" H 12600 7800 50  0001 C CNN
-F 1 "GND" H 12605 7877 50  0000 C CNN
-F 2 "" H 12600 8050 50  0001 C CNN
-F 3 "" H 12600 8050 50  0001 C CNN
-	1    12600 8050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12600 8050 12750 8050
-Wire Wire Line
-	12750 8050 12750 8000
-Wire Wire Line
-	12750 8000 12950 8000
-Connection ~ 12950 8000
 Text GLabel 7450 7150 0    50   Input ~ 0
 nRESET
 Text GLabel 8650 8250 2    50   Input ~ 0
@@ -768,8 +718,6 @@ Text GLabel 13750 3950 2    50   Input ~ 0
 I2c-SCL
 Text GLabel 1100 1550 2    50   Input ~ 0
 VDC
-Text GLabel 1100 1650 2    50   Input ~ 0
-SWD-GND
 Text GLabel 11600 1850 1    50   Input ~ 0
 +3.3V
 Text GLabel 8650 7750 2    50   Input ~ 0
@@ -946,14 +894,8 @@ Text GLabel 1100 2050 2    50   Input ~ 0
 I2c-SDA
 Text GLabel 1100 2150 2    50   Input ~ 0
 VDC
-Text GLabel 1100 2250 2    50   Input ~ 0
-SWD-GND
-Text GLabel 12750 7700 0    50   Input ~ 0
+Text GLabel 13150 7550 0    50   Input ~ 0
 +3.3V
-Wire Wire Line
-	12750 7700 12950 7700
-Wire Wire Line
-	12950 7700 12950 7800
 $Comp
 L Horticulture-rescue:GND-power-test-rescue #PWR0113
 U 1 1 5F5E9A88
@@ -1460,5 +1402,60 @@ F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 138
 F 3 "~" H 13850 5500 50  0001 C CNN
 	1    13850 5500
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 600C4853
+P 13150 7850
+F 0 "#PWR0118" H 13150 7600 50  0001 C CNN
+F 1 "GND" H 13155 7677 50  0000 C CNN
+F 2 "" H 13150 7850 50  0001 C CNN
+F 3 "" H 13150 7850 50  0001 C CNN
+	1    13150 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 600D22E3
+P 1100 2250
+F 0 "#PWR0127" H 1100 2000 50  0001 C CNN
+F 1 "GND" H 1105 2077 50  0000 C CNN
+F 2 "" H 1100 2250 50  0001 C CNN
+F 3 "" H 1100 2250 50  0001 C CNN
+	1    1100 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 600D36DB
+P 1100 1650
+F 0 "#PWR0128" H 1100 1400 50  0001 C CNN
+F 1 "GND" H 1105 1477 50  0000 C CNN
+F 2 "" H 1100 1650 50  0001 C CNN
+F 3 "" H 1100 1650 50  0001 C CNN
+	1    1100 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male Prgrm1
+U 1 1 6008A5A0
+P 13350 7750
+F 0 "Prgrm1" H 13322 7632 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 13322 7723 50  0000 R CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 13350 7750 50  0001 C CNN
+F 3 "~" H 13350 7750 50  0001 C CNN
+	1    13350 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Horticulture-rescue:R_Small-Device-test-rescue R4
+U 1 1 5EEED184
+P 8600 5750
+F 0 "R4" H 8659 5796 50  0000 L CNN
+F 1 "1ohm" H 8659 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 5750 50  0001 C CNN
+F 3 "~" H 8600 5750 50  0001 C CNN
+	1    8600 5750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
