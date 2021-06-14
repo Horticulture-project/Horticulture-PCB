@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Horticulture LED"
-Date "2020-12-06"
-Rev "3.2.1"
+Date "2021-06-15"
+Rev "3.3.1"
 Comp "Horticulture project"
 Comment1 ""
 Comment2 ""
@@ -612,8 +612,6 @@ Text GLabel 13150 7750 0    50   Input ~ 0
 SWD-SWCLK
 Text GLabel 13150 7650 0    50   Input ~ 0
 SWD-SWIO
-Text GLabel 7450 7150 0    50   Input ~ 0
-nRESET
 Text GLabel 8650 8250 2    50   Input ~ 0
 SWD-SWCLK
 Text GLabel 8650 8150 2    50   Input ~ 0
@@ -1362,14 +1360,9 @@ F 3 "~" H 7600 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 7150 7600 7150
-Wire Wire Line
 	7600 7050 7600 7150
-Connection ~ 7600 7150
 Wire Wire Line
 	7600 7150 7650 7150
-Wire Wire Line
-	7600 6850 8200 6850
 Wire Wire Line
 	8200 6850 8200 6950
 Connection ~ 8200 6950
@@ -1458,4 +1451,63 @@ F 3 "~" H 8600 5750 50  0001 C CNN
 	1    8600 5750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60C84C4E
+P 2280 1500
+F 0 "#FLG0101" H 2280 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 2280 1673 50  0000 C CNN
+F 2 "" H 2280 1500 50  0001 C CNN
+F 3 "~" H 2280 1500 50  0001 C CNN
+	1    2280 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1500 2280 1500
+Connection ~ 2550 1500
+NoConn ~ 7650 7950
+NoConn ~ 7650 8050
+NoConn ~ 8650 7450
+NoConn ~ 12600 1800
+NoConn ~ 14050 1950
+NoConn ~ 14050 2100
+NoConn ~ 13300 2450
+NoConn ~ 13300 2600
+NoConn ~ 13300 2750
+NoConn ~ 13300 2900
+NoConn ~ 12600 1900
+NoConn ~ 12400 1500
+NoConn ~ 12300 1500
+NoConn ~ 12200 1500
+NoConn ~ 12000 1500
+NoConn ~ 10350 4100
+NoConn ~ 10350 3950
+NoConn ~ 10350 3800
+NoConn ~ 10350 3650
+NoConn ~ 10350 3500
+NoConn ~ 10350 3050
+NoConn ~ 10350 3200
+NoConn ~ 10350 3350
+NoConn ~ 10350 2300
+NoConn ~ 10350 2450
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60D5B8D8
+P 7760 6850
+F 0 "#FLG0102" H 7760 6925 50  0001 C CNN
+F 1 "PWR_FLAG" H 7760 7023 50  0000 C CNN
+F 2 "" H 7760 6850 50  0001 C CNN
+F 3 "~" H 7760 6850 50  0001 C CNN
+	1    7760 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7760 6850
+Wire Wire Line
+	7760 6850 8200 6850
+Wire Wire Line
+	7600 6850 7760 6850
+NoConn ~ 13300 3650
+NoConn ~ 13300 3800
+Text Label 7335 7180 0    50   ~ 0
+nReset
 $EndSCHEMATC
