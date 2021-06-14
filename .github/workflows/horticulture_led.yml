@@ -27,7 +27,7 @@ jobs:
     - uses: INTI-CMNB/KiBot@v1
       with:
         # Required - kibot config file
-        config: Horticulture-LED/horticulture_led.yaml
+        config: Horticulture-LED/horticulture_led.kibot.yaml
         # optional - prefix to output defined in config
         dir: Horticulture-LED/Fabrication
         # optional - schematic file
