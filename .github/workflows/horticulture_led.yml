@@ -47,7 +47,7 @@ jobs:
         cd /home/runner/work/Horticulture-PCB/Horticulture-PCB/Horticulture-LED/Fabrication
         cp Gerbers -R /tmp/Plot
         cp Schematic.pdf /tmp/Schematic-Horticulture-LED-PCB.pdf
-        cp BoM/Horticulture-LED-ibom_* /tmp/iBom-Horticulture-LED-PCB.html
+        cp BoM/*ibom* /tmp/iBom-Horticulture-LED-PCB.html
         ls 3D
         cp 3D/*.step /tmp/Horticulture-LED-PCB.step
         cd /tmp
