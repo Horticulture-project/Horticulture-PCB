@@ -1,4 +1,4 @@
-update=21.01.2021 01:05:42
+update=19.08.2021 12:21:07
 version=1
 last_client=kicad
 [general]
@@ -249,8 +249,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Led-Driver
-Clearance=0.2
-TrackWidth=0.25
+Clearance=0.1
+TrackWidth=0.8
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -260,8 +260,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Led-power
-Clearance=0.2
-TrackWidth=0.25
+Clearance=0.1
+TrackWidth=1
 ViaDiameter=1
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -271,9 +271,9 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=VDC
-Clearance=0.2
-TrackWidth=1
-ViaDiameter=0.8
+Clearance=0.1
+TrackWidth=0.8
+ViaDiameter=1
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
@@ -283,7 +283,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=ymse power
 Clearance=0.1
-TrackWidth=0.4
+TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
