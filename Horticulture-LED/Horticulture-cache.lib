@@ -45,48 +45,6 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Schottky
-#
-DEF Device_D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Polyfuse
-#
-DEF Device_Polyfuse F 0 0 N Y 1 F N
-F0 "F" -100 0 50 V V C CNN
-F1 "Device_Polyfuse" 100 0 50 V V C CNN
-F2 "" 50 -200 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *polyfuse*
- *PTC*
-$ENDFPLIST
-DRAW
-S -30 100 30 -100 0 1 10 N
-P 2 0 1 0 0 100 0 -100 N
-P 4 0 1 0 -60 100 -60 60 60 -60 60 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -101,23 +59,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_Small
-#
-DEF Device_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -212,6 +153,36 @@ X SW 6 350 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Horticulture-rescue_nrf-led-feather-rescue_PCA9633DP2-i2c-led-feather-cache
+#
+DEF Horticulture-rescue_nrf-led-feather-rescue_PCA9633DP2-i2c-led-feather-cache U 0 10 Y Y 1 L N
+F0 "U" 1100 400 60 H V C CNN
+F1 "Horticulture-rescue_nrf-led-feather-rescue_PCA9633DP2-i2c-led-feather-cache" 1100 300 60 H V C CNN
+F2 "SOT552-1_NXP" 1100 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SOT552-1_NXP
+ SOT552-1_NXP-M
+ SOT552-1_NXP-L
+$ENDFPLIST
+DRAW
+P 2 1 1 5 300 -600 1900 -600 N
+P 2 1 1 5 300 200 300 -600 N
+P 2 1 1 5 1900 -600 1900 200 N
+P 2 1 1 5 1900 200 300 200 N
+X LED0 1 0 0 300 R 59 59 1 1 U
+X VDD 10 2200 0 300 L 59 59 1 1 U
+X LED1 2 0 -100 300 R 59 59 1 1 U
+X LED2 3 0 -200 300 R 59 59 1 1 U
+X LED3 4 0 -300 300 R 59 59 1 1 U
+X A0 5 0 -400 300 R 59 59 1 1 U
+X VSS 6 2200 -400 300 L 59 59 1 1 U
+X A1 7 2200 -300 300 L 59 59 1 1 U
+X SCL 8 2200 -200 300 L 59 59 1 1 U
+X SDA 9 2200 -100 300 L 59 59 1 1 U
+ENDDRAW
+ENDDEF
+#
 # Jumper_SolderJumper_3_Bridged12
 #
 DEF Jumper_SolderJumper_3_Bridged12 JP 0 0 Y N 1 F N
@@ -237,36 +208,6 @@ P 2 0 1 0 100 0 80 0 N
 X A 1 -200 0 100 R 50 50 1 1 P
 X C 2 0 -150 100 U 50 50 1 1 I
 X B 3 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# i2c-led-feather-cache_nrf-led-feather-rescue_PCA9633DP2
-#
-DEF i2c-led-feather-cache_nrf-led-feather-rescue_PCA9633DP2 U 0 10 Y Y 1 L N
-F0 "U" 1100 400 60 H V C CNN
-F1 "i2c-led-feather-cache_nrf-led-feather-rescue_PCA9633DP2" 1100 300 60 H V C CNN
-F2 "SOT552-1_NXP" 1100 240 60 H I C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- SOT552-1_NXP
- SOT552-1_NXP-M
- SOT552-1_NXP-L
-$ENDFPLIST
-DRAW
-P 2 1 1 5 300 -600 1900 -600 N
-P 2 1 1 5 300 200 300 -600 N
-P 2 1 1 5 1900 -600 1900 200 N
-P 2 1 1 5 1900 200 300 200 N
-X LED0 1 0 0 300 R 59 59 1 1 U
-X VDD 10 2200 0 300 L 59 59 1 1 U
-X LED1 2 0 -100 300 R 59 59 1 1 U
-X LED2 3 0 -200 300 R 59 59 1 1 U
-X LED3 4 0 -300 300 R 59 59 1 1 U
-X A0 5 0 -400 300 R 59 59 1 1 U
-X VSS 6 2200 -400 300 L 59 59 1 1 U
-X A1 7 2200 -300 300 L 59 59 1 1 U
-X SCL 8 2200 -200 300 L 59 59 1 1 U
-X SDA 9 2200 -100 300 L 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #

@@ -508,17 +508,6 @@ $EndComp
 Connection ~ 9100 4000
 Connection ~ 9100 5500
 $Comp
-L particle:Particle_Boron A1
-U 1 1 5EF20E12
-P 11800 3050
-F 0 "A1" H 12200 1511 50  0000 C CNN
-F 1 "Particle_Boron" H 12200 1420 50  0000 C CNN
-F 2 "Adafruit_FeatherWing:PCB_FeatherWing" H 11100 3250 50  0001 C CNN
-F 3 "" H 11100 3250 50  0001 C CNN
-	1    11800 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x04_Male J3
 U 1 1 5EF1DB68
 P 1350 1250
@@ -548,42 +537,6 @@ I2c-SDA
 Text GLabel 13750 3950 2    50   Input ~ 0
 I2c-SCL
 Text GLabel 11600 1850 1    50   Input ~ 0
-+3.3V
-$Comp
-L Device:R_Small R5
-U 1 1 5F25CC3B
-P 13500 4350
-F 0 "R5" V 13304 4350 50  0000 C CNN
-F 1 "4.7K" V 13395 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 13500 4350 50  0001 C CNN
-F 3 "~" H 13500 4350 50  0001 C CNN
-	1    13500 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5F25F078
-P 13600 4350
-F 0 "R6" V 13404 4350 50  0000 C CNN
-F 1 "4.7K" V 13495 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 13600 4350 50  0001 C CNN
-F 3 "~" H 13600 4350 50  0001 C CNN
-	1    13600 4350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13600 4250 13600 3950
-Connection ~ 13600 3950
-Wire Wire Line
-	13600 3950 13750 3950
-Wire Wire Line
-	13500 4250 13500 4100
-Connection ~ 13500 4100
-Wire Wire Line
-	13500 4100 13750 4100
-Text GLabel 13500 4450 3    50   Input ~ 0
-+3.3V
-Text GLabel 13600 4450 3    50   Input ~ 0
 +3.3V
 $Comp
 L Connector:Conn_01x04_Male J4
@@ -744,13 +697,6 @@ Wire Wire Line
 	6400 8750 6750 8750
 Text GLabel 8250 8750 2    50   Input ~ 0
 +3.3V
-Connection ~ 5050 8800
-Wire Wire Line
-	5050 8800 5050 9050
-Wire Wire Line
-	5050 8600 5050 8800
-Wire Wire Line
-	5650 8800 5050 8800
 Wire Wire Line
 	6700 9350 8250 9350
 Connection ~ 6700 9350
@@ -762,60 +708,20 @@ Wire Wire Line
 	8250 8750 8250 8950
 Wire Wire Line
 	8050 8750 8150 8750
-Connection ~ 5050 9350
 Wire Wire Line
 	8250 9350 8250 9250
 Wire Wire Line
-	5050 9350 6100 9350
-Wire Wire Line
 	7050 8750 7150 8750
-Wire Wire Line
-	4500 9350 3750 9350
-Connection ~ 4500 9350
-Wire Wire Line
-	4500 8950 4500 9350
 Wire Wire Line
 	3750 9350 3750 8950
 Wire Wire Line
-	5050 9350 4500 9350
-Wire Wire Line
-	4500 8300 3750 8300
-Connection ~ 4500 8300
-Wire Wire Line
-	4500 8650 4500 8300
-Connection ~ 5050 8300
-Wire Wire Line
 	3750 8300 3750 8650
 Wire Wire Line
-	5050 8300 4500 8300
-Wire Wire Line
-	5500 8300 5050 8300
+	5500 8300 5300 8300
 Wire Wire Line
 	5500 8650 5500 8300
 Wire Wire Line
 	5650 8650 5500 8650
-$Comp
-L Device:R Renb1
-U 1 1 5F7D2821
-P 5050 9200
-F 0 "Renb1" H 5120 9246 50  0000 L CNN
-F 1 "10k" H 5120 9155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4980 9200 50  0001 C CNN
-F 3 "~" H 5050 9200 50  0001 C CNN
-	1    5050 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R Rent1
-U 1 1 5F7D0EBB
-P 5050 8450
-F 0 "Rent1" H 5120 8496 50  0000 L CNN
-F 1 "10k" H 5120 8405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4980 8450 50  0001 C CNN
-F 3 "~" H 5050 8450 50  0001 C CNN
-	1    5050 8450
-	1    0    0    -1  
-$EndComp
 $Comp
 L pspice:INDUCTOR L1
 U 1 1 5F7C742A
@@ -850,17 +756,6 @@ F 3 "~" H 6900 8750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C Cinx1
-U 1 1 5F7BFD6B
-P 4500 8800
-F 0 "Cinx1" H 4615 8846 50  0000 L CNN
-F 1 "100nF" H 4615 8755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 8650 50  0001 C CNN
-F 3 "~" H 4500 8800 50  0001 C CNN
-	1    4500 8800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C Cin1
 U 1 1 5F7BEDEC
 P 3750 8800
@@ -888,32 +783,6 @@ Wire Wire Line
 	6100 9350 6700 9350
 Wire Notes Line
 	450  8600 450  7000
-$Comp
-L Device:Polyfuse F1
-U 1 1 5F8B0FBE
-P 2800 8300
-F 0 "F1" V 2575 8300 50  0000 C CNN
-F 1 "Polyfuse" V 2666 8300 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 2850 8100 50  0001 L CNN
-F 3 "~" H 2800 8300 50  0001 C CNN
-	1    2800 8300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D33
-U 1 1 5F8B2DE3
-P 3350 8300
-F 0 "D33" H 3350 8083 50  0000 C CNN
-F 1 "D_Schottky" H 3350 8174 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 3350 8300 50  0001 C CNN
-F 3 "~" H 3350 8300 50  0001 C CNN
-	1    3350 8300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2950 8300 3200 8300
-Wire Wire Line
-	3500 8300 3750 8300
 Connection ~ 3750 8300
 $Comp
 L power:GND #PWR0128
@@ -1225,10 +1094,6 @@ I2c-SCL
 NoConn ~ 10350 2600
 NoConn ~ 10350 2750
 NoConn ~ 10350 2900
-Wire Wire Line
-	13300 4100 13500 4100
-Wire Wire Line
-	13300 3950 13600 3950
 Text GLabel 13900 8200 2    50   Input ~ 0
 I2c-SCL
 Text GLabel 13900 8300 2    50   Input ~ 0
@@ -1406,4 +1271,30 @@ F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9633.pdf" H 12700 5100 60  0000 C
 	1    11700 5900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5300 8300 5300 8800
+Connection ~ 5300 8300
+Wire Wire Line
+	5300 8800 5650 8800
+Wire Wire Line
+	2650 8300 3750 8300
+$Comp
+L particle:Particle_Boron A1
+U 1 1 5EF20E12
+P 11800 3050
+F 0 "A1" H 12200 1511 50  0000 C CNN
+F 1 "Particle_Boron" H 12200 1420 50  0000 C CNN
+F 2 "Adafruit_FeatherWing:PCB_FeatherWing" H 11100 3250 50  0001 C CNN
+F 3 "" H 11100 3250 50  0001 C CNN
+	1    11800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 4100 13750 4100
+Wire Wire Line
+	13300 3950 13750 3950
+Wire Wire Line
+	3750 9350 6100 9350
+Wire Wire Line
+	3750 8300 5300 8300
 $EndSCHEMATC
