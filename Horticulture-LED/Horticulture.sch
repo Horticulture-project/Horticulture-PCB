@@ -245,7 +245,7 @@ L Horticulture-rescue:LED-Device-test-rescue D6
 U 1 1 5EF11D77
 P 7350 1300
 F 0 "D6" H 7343 1517 50  0000 C CNN
-F 1 "LED" H 7343 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 7343 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 7350 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 7350 1300 50  0001 C CNN
 	1    7350 1300
@@ -256,7 +256,7 @@ L Horticulture-rescue:LED-Device-test-rescue D5
 U 1 1 5EF11D81
 P 6700 1300
 F 0 "D5" H 6693 1517 50  0000 C CNN
-F 1 "LED" H 6693 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 6693 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6700 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6700 1300 50  0001 C CNN
 	1    6700 1300
@@ -267,7 +267,7 @@ L Horticulture-rescue:LED-Device-test-rescue D4
 U 1 1 5EF11D8B
 P 6050 1300
 F 0 "D4" H 6043 1517 50  0000 C CNN
-F 1 "LED" H 6043 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 6043 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6050 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6050 1300 50  0001 C CNN
 	1    6050 1300
@@ -278,7 +278,7 @@ L Horticulture-rescue:LED-Device-test-rescue D3
 U 1 1 5EF11D95
 P 5400 1300
 F 0 "D3" H 5393 1517 50  0000 C CNN
-F 1 "LED" H 5393 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 5393 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 5400 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 5400 1300 50  0001 C CNN
 	1    5400 1300
@@ -289,7 +289,7 @@ L Horticulture-rescue:LED-Device-test-rescue D2
 U 1 1 5EF11D9F
 P 4750 1300
 F 0 "D2" H 4743 1517 50  0000 C CNN
-F 1 "LED" H 4743 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 4743 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4750 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4750 1300 50  0001 C CNN
 	1    4750 1300
@@ -300,7 +300,7 @@ L Horticulture-rescue:LED-Device-test-rescue D1
 U 1 1 5EF11DA9
 P 4100 1300
 F 0 "D1" H 4093 1517 50  0000 C CNN
-F 1 "LED" H 4093 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 4093 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4100 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4100 1300 50  0001 C CNN
 	1    4100 1300
@@ -312,7 +312,7 @@ L Horticulture-rescue:LED-Device-test-rescue D18
 U 1 1 5EED18C4
 P 4750 4000
 F 0 "D18" H 4743 4217 50  0000 C CNN
-F 1 "LED" H 4743 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 4743 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4750 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4750 4000 50  0001 C CNN
 	1    4750 4000
@@ -323,7 +323,7 @@ L Horticulture-rescue:LED-Device-test-rescue D17
 U 1 1 5EED18CA
 P 4100 4000
 F 0 "D17" H 4093 4217 50  0000 C CNN
-F 1 "LED" H 4093 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 4093 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4100 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4100 4000 50  0001 C CNN
 	1    4100 4000
@@ -334,7 +334,7 @@ L Horticulture-rescue:LED-Device-test-rescue D16
 U 1 1 5EED18D0
 P 8650 2600
 F 0 "D16" H 8643 2817 50  0000 C CNN
-F 1 "LED" H 8643 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 8643 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8650 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8650 2600 50  0001 C CNN
 	1    8650 2600
@@ -345,7 +345,7 @@ L Horticulture-rescue:LED-Device-test-rescue D15
 U 1 1 5EED18D6
 P 8000 2600
 F 0 "D15" H 7993 2817 50  0000 C CNN
-F 1 "LED" H 7993 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 7993 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8000 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8000 2600 50  0001 C CNN
 	1    8000 2600
@@ -356,7 +356,7 @@ L Horticulture-rescue:LED-Device-test-rescue D14
 U 1 1 5EED18DC
 P 7350 2600
 F 0 "D14" H 7343 2817 50  0000 C CNN
-F 1 "LED" H 7343 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 7343 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 7350 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 7350 2600 50  0001 C CNN
 	1    7350 2600
@@ -367,7 +367,7 @@ L Horticulture-rescue:LED-Device-test-rescue D13
 U 1 1 5EED18E2
 P 6700 2600
 F 0 "D13" H 6693 2817 50  0000 C CNN
-F 1 "LED" H 6693 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 6693 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6700 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6700 2600 50  0001 C CNN
 	1    6700 2600
@@ -378,7 +378,7 @@ L Horticulture-rescue:LED-Device-test-rescue D24
 U 1 1 5EED38D5
 P 8650 4000
 F 0 "D24" H 8643 4217 50  0000 C CNN
-F 1 "LED" H 8643 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 8643 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8650 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8650 4000 50  0001 C CNN
 	1    8650 4000
@@ -389,7 +389,7 @@ L Horticulture-rescue:LED-Device-test-rescue D23
 U 1 1 5EED38DB
 P 8000 4000
 F 0 "D23" H 7993 4217 50  0000 C CNN
-F 1 "LED" H 7993 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 7993 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8000 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8000 4000 50  0001 C CNN
 	1    8000 4000
@@ -400,7 +400,7 @@ L Horticulture-rescue:LED-Device-test-rescue D22
 U 1 1 5EED38E1
 P 7350 4000
 F 0 "D22" H 7343 4217 50  0000 C CNN
-F 1 "LED" H 7343 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 7343 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 7350 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 7350 4000 50  0001 C CNN
 	1    7350 4000
@@ -411,7 +411,7 @@ L Horticulture-rescue:LED-Device-test-rescue D21
 U 1 1 5EED38E7
 P 6700 4000
 F 0 "D21" H 6693 4217 50  0000 C CNN
-F 1 "LED" H 6693 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 6693 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6700 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6700 4000 50  0001 C CNN
 	1    6700 4000
@@ -422,7 +422,7 @@ L Horticulture-rescue:LED-Device-test-rescue D20
 U 1 1 5EED38ED
 P 6050 4000
 F 0 "D20" H 6043 4217 50  0000 C CNN
-F 1 "LED" H 6043 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 6043 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6050 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6050 4000 50  0001 C CNN
 	1    6050 4000
@@ -433,7 +433,7 @@ L Horticulture-rescue:LED-Device-test-rescue D19
 U 1 1 5EED38F3
 P 5400 4000
 F 0 "D19" H 5393 4217 50  0000 C CNN
-F 1 "LED" H 5393 4126 50  0000 C CNN
+F 1 "LED, Lime, L1SP-LME0002800000" H 5393 4126 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 5400 4000 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 5400 4000 50  0001 C CNN
 	1    5400 4000
@@ -444,7 +444,7 @@ L Horticulture-rescue:LED-Device-test-rescue D7
 U 1 1 5EECB202
 P 8000 1300
 F 0 "D7" H 7993 1517 50  0000 C CNN
-F 1 "LED" H 7993 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 7993 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8000 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8000 1300 50  0001 C CNN
 	1    8000 1300
@@ -455,7 +455,7 @@ L Horticulture-rescue:LED-Device-test-rescue D8
 U 1 1 5EECB1F8
 P 8650 1300
 F 0 "D8" H 8643 1517 50  0000 C CNN
-F 1 "LED" H 8643 1426 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 8643 1426 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8650 1300 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8650 1300 50  0001 C CNN
 	1    8650 1300
@@ -466,7 +466,7 @@ L Horticulture-rescue:LED-Device-test-rescue D9
 U 1 1 5EECB1EE
 P 4100 2600
 F 0 "D9" H 4093 2817 50  0000 C CNN
-F 1 "LED" H 4093 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 4093 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4100 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4100 2600 50  0001 C CNN
 	1    4100 2600
@@ -477,7 +477,7 @@ L Horticulture-rescue:LED-Device-test-rescue D10
 U 1 1 5EECB1E4
 P 4750 2600
 F 0 "D10" H 4743 2817 50  0000 C CNN
-F 1 "LED" H 4743 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 4743 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4750 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4750 2600 50  0001 C CNN
 	1    4750 2600
@@ -488,7 +488,7 @@ L Horticulture-rescue:LED-Device-test-rescue D11
 U 1 1 5EECB1DA
 P 5400 2600
 F 0 "D11" H 5393 2817 50  0000 C CNN
-F 1 "LED" H 5393 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 5393 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 5400 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 5400 2600 50  0001 C CNN
 	1    5400 2600
@@ -499,7 +499,7 @@ L Horticulture-rescue:LED-Device-test-rescue D12
 U 1 1 5EECB1D0
 P 6050 2600
 F 0 "D12" H 6043 2817 50  0000 C CNN
-F 1 "LED" H 6043 2726 50  0000 C CNN
+F 1 "LED, Royal Blue, L1SP-RYL0002800000" H 6043 2726 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6050 2600 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6050 2600 50  0001 C CNN
 	1    6050 2600
@@ -738,7 +738,7 @@ L Device:C Cout1
 U 1 1 5F7C151B
 P 8250 9100
 F 0 "Cout1" H 8365 9146 50  0000 L CNN
-F 1 "22uF" H 8365 9055 50  0000 L CNN
+F 1 "22uF, X7R/X5R, 10V" H 8365 9055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8288 8950 50  0001 C CNN
 F 3 "~" H 8250 9100 50  0001 C CNN
 	1    8250 9100
@@ -749,7 +749,7 @@ L Device:C Cboot1
 U 1 1 5F7C0A1D
 P 6900 8750
 F 0 "Cboot1" V 6648 8750 50  0000 C CNN
-F 1 "100nF" V 6739 8750 50  0000 C CNN
+F 1 "100nF, X7R/X5R, 16V" V 6739 8750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 8600 50  0001 C CNN
 F 3 "~" H 6900 8750 50  0001 C CNN
 	1    6900 8750
@@ -760,7 +760,7 @@ L Device:C Cin1
 U 1 1 5F7BEDEC
 P 3750 8800
 F 0 "Cin1" H 3865 8846 50  0000 L CNN
-F 1 "4.7uF" H 3865 8755 50  0000 L CNN
+F 1 "4.7uF, 50V" H 3865 8755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3788 8650 50  0001 C CNN
 F 3 "~" H 3750 8800 50  0001 C CNN
 	1    3750 8800
@@ -835,7 +835,7 @@ L Horticulture-rescue:LED-Device-test-rescue D25
 U 1 1 61020E86
 P 4100 5500
 F 0 "D25" H 4093 5717 50  0000 C CNN
-F 1 "LED" H 4093 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 4093 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4100 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4100 5500 50  0001 C CNN
 	1    4100 5500
@@ -846,7 +846,7 @@ L Horticulture-rescue:LED-Device-test-rescue D26
 U 1 1 6102AE9D
 P 4750 5500
 F 0 "D26" H 4743 5717 50  0000 C CNN
-F 1 "LED" H 4743 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 4743 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 4750 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 4750 5500 50  0001 C CNN
 	1    4750 5500
@@ -857,7 +857,7 @@ L Horticulture-rescue:LED-Device-test-rescue D27
 U 1 1 6102BB7D
 P 5400 5500
 F 0 "D27" H 5393 5717 50  0000 C CNN
-F 1 "LED" H 5393 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 5393 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 5400 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 5400 5500 50  0001 C CNN
 	1    5400 5500
@@ -868,7 +868,7 @@ L Horticulture-rescue:LED-Device-test-rescue D28
 U 1 1 6102C7FD
 P 6050 5500
 F 0 "D28" H 6043 5717 50  0000 C CNN
-F 1 "LED" H 6043 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 6043 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6050 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6050 5500 50  0001 C CNN
 	1    6050 5500
@@ -879,7 +879,7 @@ L Horticulture-rescue:LED-Device-test-rescue D29
 U 1 1 6102D6FD
 P 6700 5500
 F 0 "D29" H 6693 5717 50  0000 C CNN
-F 1 "LED" H 6693 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 6693 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 6700 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 6700 5500 50  0001 C CNN
 	1    6700 5500
@@ -890,7 +890,7 @@ L Horticulture-rescue:LED-Device-test-rescue D30
 U 1 1 6102E459
 P 7350 5500
 F 0 "D30" H 7343 5717 50  0000 C CNN
-F 1 "LED" H 7343 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 7343 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 7350 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 7350 5500 50  0001 C CNN
 	1    7350 5500
@@ -901,7 +901,7 @@ L Horticulture-rescue:LED-Device-test-rescue D31
 U 1 1 6102F0CA
 P 8000 5500
 F 0 "D31" H 7993 5717 50  0000 C CNN
-F 1 "LED" H 7993 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 7993 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8000 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8000 5500 50  0001 C CNN
 	1    8000 5500
@@ -912,7 +912,7 @@ L Horticulture-rescue:LED-Device-test-rescue D32
 U 1 1 610DE354
 P 8650 5500
 F 0 "D32" H 8643 5717 50  0000 C CNN
-F 1 "LED" H 8643 5626 50  0000 C CNN
+F 1 "LED, Purple (2.5% Blue), L1SP-PRP0002800000" H 8643 5626 50  0000 C CNN
 F 2 "LED_SMD:Sunplus-2835" H 8650 5500 50  0001 C CNN
 F 3 "https://lumileds.com/wp-content/uploads/files/DS237-luxeon-sunplus-2835-line-datasheet.pdf" H 8650 5500 50  0001 C CNN
 	1    8650 5500
