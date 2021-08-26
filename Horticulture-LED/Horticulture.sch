@@ -1294,7 +1294,46 @@ Wire Wire Line
 Wire Wire Line
 	13300 3950 13750 3950
 Wire Wire Line
-	3750 9350 6100 9350
+	3750 9350 4350 9350
 Wire Wire Line
 	3750 8300 5300 8300
+$Comp
+L Regulator_Linear:MCP1703A-1502_SOT223 U6
+U 1 1 6127D649
+P 4350 8650
+F 0 "U6" H 4350 8892 50  0000 C CNN
+F 1 "MCP1703A-1502_SOT223" H 4350 8801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4350 8850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 4350 8600 50  0001 C CNN
+	1    4350 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 8650 3750 8650
+Connection ~ 3750 8650
+Wire Wire Line
+	4350 8950 4350 9100
+Connection ~ 4350 9350
+Wire Wire Line
+	4350 9350 6100 9350
+$Comp
+L Device:C Cldo1
+U 1 1 61285EC2
+P 4650 8800
+F 0 "Cldo1" H 4765 8846 50  0000 L CNN
+F 1 "4.7uF, 50V" H 4765 8755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4688 8650 50  0001 C CNN
+F 3 "~" H 4650 8800 50  0001 C CNN
+	1    4650 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 8950 4650 9100
+Wire Wire Line
+	4650 9100 4350 9100
+Connection ~ 4350 9100
+Wire Wire Line
+	4350 9100 4350 9350
+Text GLabel 4650 8650 2    50   Input ~ 0
++3.3V
 $EndSCHEMATC
