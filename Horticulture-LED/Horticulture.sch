@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Horticulture LED"
 Date "2021-06-15"
-Rev "3.3.1"
+Rev "3.4.0"
 Comp "Horticulture project"
 Comment1 ""
 Comment2 ""
