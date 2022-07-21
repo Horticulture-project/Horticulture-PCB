@@ -1,251 +1,66 @@
-.HEA
-.TIM 03.08.2021 15:51:36
-.APP "Eeschema (5.1.10)-1"
-
-.ADD_COM U4 TLE4309  Package_TO_SOT_SMD:TO-263-7_TabPin4
-.ADD_COM R3 1ohm  Resistor_SMD:R_0805_2012Metric
-.ADD_COM U3 TLE4309  Package_TO_SOT_SMD:TO-263-7_TabPin4
-.ADD_COM R2 1ohm  Resistor_SMD:R_0805_2012Metric
-.ADD_COM U2 TLE4309  Package_TO_SOT_SMD:TO-263-7_TabPin4
-.ADD_COM R1 1ohm  Resistor_SMD:R_0805_2012Metric
-.ADD_COM U1 TLE4309  Package_TO_SOT_SMD:TO-263-7_TabPin4
-.ADD_COM D6 LED  LED_SMD:Sunplus-2835
-.ADD_COM D5 LED  LED_SMD:Sunplus-2835
-.ADD_COM D4 LED  LED_SMD:Sunplus-2835
-.ADD_COM D3 LED  LED_SMD:Sunplus-2835
-.ADD_COM D2 LED  LED_SMD:Sunplus-2835
-.ADD_COM D1 LED  LED_SMD:Sunplus-2835
-.ADD_COM D18 LED  LED_SMD:Sunplus-2835
-.ADD_COM D17 LED  LED_SMD:Sunplus-2835
-.ADD_COM D16 LED  LED_SMD:Sunplus-2835
-.ADD_COM D15 LED  LED_SMD:Sunplus-2835
-.ADD_COM D14 LED  LED_SMD:Sunplus-2835
-.ADD_COM D13 LED  LED_SMD:Sunplus-2835
-.ADD_COM D24 LED  LED_SMD:Sunplus-2835
-.ADD_COM D23 LED  LED_SMD:Sunplus-2835
-.ADD_COM D22 LED  LED_SMD:Sunplus-2835
-.ADD_COM D21 LED  LED_SMD:Sunplus-2835
-.ADD_COM D20 LED  LED_SMD:Sunplus-2835
-.ADD_COM D19 LED  LED_SMD:Sunplus-2835
-.ADD_COM D7 LED  LED_SMD:Sunplus-2835
-.ADD_COM D8 LED  LED_SMD:Sunplus-2835
-.ADD_COM D9 LED  LED_SMD:Sunplus-2835
-.ADD_COM D10 LED  LED_SMD:Sunplus-2835
-.ADD_COM D11 LED  LED_SMD:Sunplus-2835
-.ADD_COM D12 LED  LED_SMD:Sunplus-2835
-.ADD_COM A1 Particle_Boron  Adafruit_FeatherWing:PCB_FeatherWing
-.ADD_COM J3 Conn_01x04_Male  Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal-SMD
-.ADD_COM R5 4.7K  Resistor_SMD:R_0402_1005Metric
-.ADD_COM R6 4.7K  Resistor_SMD:R_0402_1005Metric
-.ADD_COM J4 Conn_01x04_Male  Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal-SMD
-.ADD_COM R10 10k  Resistor_SMD:R_0402_1005Metric
-.ADD_COM R9 10k  Resistor_SMD:R_0402_1005Metric
-.ADD_COM R8 10k  Resistor_SMD:R_0402_1005Metric
-.ADD_COM R7 10k  Resistor_SMD:R_0402_1005Metric
-.ADD_COM Renb1 10k  Resistor_SMD:R_0402_1005Metric
-.ADD_COM Rent1 10k  Resistor_SMD:R_0402_1005Metric
-.ADD_COM L1 12uH  Inductor_SMD:IND_SDR0403-120ML
-.ADD_COM Cout1 22uF  Capacitor_SMD:C_0805_2012Metric
-.ADD_COM Cboot1 100nF  Capacitor_SMD:C_0805_2012Metric
-.ADD_COM Cinx1 100nF  Capacitor_SMD:C_0603_1608Metric
-.ADD_COM Cin1 4.7uF  Capacitor_SMD:C_1206_3216Metric
-.ADD_COM VR1 TPS560430X3FDBV  Package_TO_SOT_SMD:SOT-23-6
-.ADD_COM F1 Polyfuse  Fuse:Fuse_1206_3216Metric
-.ADD_COM D33 D_Schottky  Diode_SMD:D_SOD-323
-.ADD_COM R4 1ohm  Resistor_SMD:R_0805_2012Metric
-.ADD_COM D25 LED  LED_SMD:Sunplus-2835
-.ADD_COM D26 LED  LED_SMD:Sunplus-2835
-.ADD_COM D27 LED  LED_SMD:Sunplus-2835
-.ADD_COM D28 LED  LED_SMD:Sunplus-2835
-.ADD_COM D29 LED  LED_SMD:Sunplus-2835
-.ADD_COM D30 LED  LED_SMD:Sunplus-2835
-.ADD_COM D31 LED  LED_SMD:Sunplus-2835
-.ADD_COM D32 LED  LED_SMD:Sunplus-2835
-.ADD_COM 3.3v_i2c3 Conn_01x04_Male  Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical
-.ADD_COM 3.3v_i2c2 Conn_01x04_Male  Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical
-.ADD_COM 3.3v_i2c1 Conn_01x04_Male  Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical
-.ADD_COM 3.3v_i2c4 Conn_01x04_Male  Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical
-.ADD_COM JP2 i2c addr 2  Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
-.ADD_COM JP1 i2c addr 1  Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
-.ADD_COM U5 PCA9633DP2  Package_TO_SOT_SMD:SOT-552-1-nxp
-
-
-.ADD_TER Renb1.2  GND
-.TER     U4.4
-         R3.2
-         R1.2
-         U1.4
-         Cout1.2
-         Cinx1.2
-         Cin1.2
-         VR1.2
-         U5.6
-         JP1.1
-         JP2.1
-         3.3v_i2c4.4
-         3.3v_i2c3.4
-         3.3v_i2c2.4
-         3.3v_i2c1.4
-         J4.4
-         U2.4
-         R4.2
-         J3.4
-         A1.GND
-         R2.2
-         U3.4
-         R7.2
-         R8.2
-         R9.2
-         R10.2
-.ADD_TER F1.1  Net-(D33-Pad2)
-.TER     D33.2
-.ADD_TER D30.1  Net-(D30-Pad1)
-.TER     D31.2
-.ADD_TER D31.1  Net-(D31-Pad1)
-.TER     D32.2
-.ADD_TER D29.1  Net-(D29-Pad1)
-.TER     D30.2
-.ADD_TER D29.2  Net-(D28-Pad1)
-.TER     D28.1
-.ADD_TER D27.1  Net-(D27-Pad1)
-.TER     D28.2
-.ADD_TER D26.1  Net-(D26-Pad1)
-.TER     D27.2
-.ADD_TER D26.2  Net-(D25-Pad1)
-.TER     D25.1
-.ADD_TER Renb1.1  Net-(Renb1-Pad1)
-.TER     VR1.4
-         Rent1.2
-.ADD_TER Cboot1.2  Net-(Cboot1-Pad2)
-.TER     VR1.1
-.ADD_TER D33.1  Net-(Cin1-Pad1)
-.TER     Cinx1.1
-         Rent1.1
-         Cin1.1
-         VR1.5
-.ADD_TER 3.3v_i2c1.3  +3.3V
-.TER     VR1.3
-         L1.2
-         Cout1.1
-         3.3v_i2c2.3
-         U5.10
-         JP1.3
-         JP2.3
-         A1.3V3
-         R5.2
-         R6.1
-         3.3v_i2c3.3
-         3.3v_i2c4.3
-.ADD_TER VR1.6  Net-(Cboot1-Pad1)
-.TER     Cboot1.1
-         L1.1
-.ADD_TER A1.SDA  I2c-SDA
-.TER     3.3v_i2c4.2
-         R5.1
-         3.3v_i2c1.2
-         3.3v_i2c3.2
-         J3.2
-         U5.9
-         J4.2
-         3.3v_i2c2.2
-.ADD_TER J3.1  I2c-SCL
-.TER     R6.2
-         A1.SCL
-         J4.1
-         3.3v_i2c2.1
-         3.3v_i2c4.1
-         3.3v_i2c1.1
-         3.3v_i2c3.1
-         U5.8
-.ADD_TER U4.2  UC-pwm4
-.TER     R10.1
-         A1.D4
-         U5.4
-.ADD_TER R9.1  UC-pwm3
-.TER     A1.D5
-         U5.3
-         U3.2
-.ADD_TER U2.2  UC-pwm2
-.TER     R8.1
-         A1.D6
-         U5.2
-.ADD_TER A1.D7  UC-pwm1
-.TER     U5.1
-         R7.1
-         U1.2
-.ADD_TER JP1.2  Net-(JP1-Pad2)
-.TER     U5.5
-.ADD_TER U5.7  Net-(JP2-Pad2)
-.TER     JP2.2
-.ADD_TER D14.1  Net-(D14-Pad1)
-.TER     D15.2
-.ADD_TER D7.1  Net-(D7-Pad1)
-.TER     D8.2
-.ADD_TER D7.2  Net-(D6-Pad1)
-.TER     D6.1
-.ADD_TER D6.2  Net-(D5-Pad1)
-.TER     D5.1
-.ADD_TER D4.1  Net-(D4-Pad1)
-.TER     D5.2
-.ADD_TER D3.1  Net-(D3-Pad1)
-.TER     D4.2
-.ADD_TER D2.1  Net-(D2-Pad1)
-.TER     D3.2
-.ADD_TER D1.1  Net-(D1-Pad1)
-.TER     D2.2
-.ADD_TER D16.2  Net-(D15-Pad1)
-.TER     D15.1
-.ADD_TER D13.1  Net-(D13-Pad1)
-.TER     D14.2
-.ADD_TER D13.2  Net-(D12-Pad1)
-.TER     D12.1
-.ADD_TER D11.1  Net-(D11-Pad1)
-.TER     D12.2
-.ADD_TER D10.1  Net-(D10-Pad1)
-.TER     D11.2
-.ADD_TER D9.1  Net-(D10-Pad2)
-.TER     D10.2
-.ADD_TER D17.1  Net-(D17-Pad1)
-.TER     D18.2
-.ADD_TER D19.2  Net-(D18-Pad1)
-.TER     D18.1
-.ADD_TER D20.2  Net-(D19-Pad1)
-.TER     D19.1
-.ADD_TER D21.2  Net-(D20-Pad1)
-.TER     D20.1
-.ADD_TER D22.2  Net-(D21-Pad1)
-.TER     D21.1
-.ADD_TER D22.1  Net-(D22-Pad1)
-.TER     D23.2
-.ADD_TER D23.1  Net-(D23-Pad1)
-.TER     D24.2
-.ADD_TER U3.5  Net-(D24-Pad1)
-.TER     R3.1
-         D24.1
-.ADD_TER U1.7  Net-(D1-Pad2)
-.TER     D1.2
-.ADD_TER D8.1  Net-(D8-Pad1)
-.TER     R1.1
-         U1.5
-.ADD_TER A1.vSens  +24vdc
-.TER     J3.3
-         U4.1
-         J4.3
-         U3.1
-         F1.2
-         U2.1
-         U1.1
-.ADD_TER D17.2  Net-(D17-Pad2)
-.TER     U3.7
-.ADD_TER D25.2  Net-(D25-Pad2)
-.TER     U4.7
-.ADD_TER D32.1  Net-(D32-Pad1)
-.TER     U4.5
-         R4.1
-.ADD_TER D16.1  Net-(D16-Pad1)
-.TER     R2.1
-         U2.5
-.ADD_TER U2.7  Net-(D9-Pad2)
-.TER     D9.2
-
-.END
+"Source:"	"C:\Users\asbjo\Documents\PCB_projects\Horticulture\Horticulture-PCB\Horticulture-LED\Horticulture.sch"
+"Date:"	"03.03.2022 12:40:59"
+"Tool:"	"Eeschema (5.1.10)-1"
+"Component Count:"	"61"
+"Ref"	"Value"	"Part"	"Footprint"	"Description"	"Vendor"
+"3.3v_i2c1"	"Conn_01x04_Male"	"Connector:Conn_01x04_Male"	"Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"	"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
+"3.3v_i2c2"	"Conn_01x04_Male"	"Connector:Conn_01x04_Male"	"Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"	"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
+"3.3v_i2c3"	"Conn_01x04_Male"	"Connector:Conn_01x04_Male"	"Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"	"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
+"3.3v_i2c4"	"Conn_01x04_Male"	"Connector:Conn_01x04_Male"	"Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"	"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
+"A1"	"Particle_Boron"	"particle:Particle_Boron"	"Adafruit_FeatherWing:PCB_FeatherWing"	""	""
+"Cboot1"	"100nF, X7R/X5R, 16V"	"Device:C"	"Capacitor_SMD:C_0805_2012Metric"	"Unpolarized capacitor"	""
+"Cin1"	"4.7uF, 50V"	"Device:C"	"Capacitor_SMD:C_1206_3216Metric"	"Unpolarized capacitor"	""
+"Cldo1"	"4.7uF, 50V"	"Device:C"	"Capacitor_SMD:C_1206_3216Metric"	"Unpolarized capacitor"	""
+"Cout1"	"22uF, X7R/X5R, 10V"	"Device:C"	"Capacitor_SMD:C_0805_2012Metric"	"Unpolarized capacitor"	""
+"D1"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D2"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D3"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D4"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D5"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D6"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D7"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D8"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D9"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D10"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D11"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D12"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D13"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D14"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D15"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D16"	"LED, Royal Blue, L1SP-RYL0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D17"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D18"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D19"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D20"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D21"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D22"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D23"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D24"	"LED, Lime, L1SP-LME0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D25"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D26"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D27"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D28"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D29"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D30"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D31"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"D32"	"LED, Purple (2.5% Blue), L1SP-PRP0002800000"	"Horticulture-rescue:LED-Device-test-rescue"	"LED_SMD:Sunplus-2835"	""	""
+"J3"	"Conn_01x04_Male"	"Connector:Conn_01x04_Male"	"Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal-SMD"	"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
+"J4"	"Conn_01x04_Male"	"Connector:Conn_01x04_Male"	"Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal-SMD"	"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"	""
+"JP1"	"i2c addr 1"	"Jumper:SolderJumper_3_Bridged12"	"Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"	"3-pole Solder Jumper, pins 1+2 closed/bridged"	""
+"JP2"	"i2c addr 2"	"Jumper:SolderJumper_3_Bridged12"	"Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"	"3-pole Solder Jumper, pins 1+2 closed/bridged"	""
+"L1"	"12uH"	"pspice:INDUCTOR"	"Inductor_SMD:IND_SDR0403-120ML"	"Inductor symbol for simulation only"	""
+"R1"	"1ohm"	"Horticulture-rescue:R_Small-Device-test-rescue"	"Resistor_SMD:R_0805_2012Metric"	""	""
+"R2"	"1ohm"	"Horticulture-rescue:R_Small-Device-test-rescue"	"Resistor_SMD:R_0805_2012Metric"	""	""
+"R3"	"1ohm"	"Horticulture-rescue:R_Small-Device-test-rescue"	"Resistor_SMD:R_0805_2012Metric"	""	""
+"R4"	"1ohm"	"Horticulture-rescue:R_Small-Device-test-rescue"	"Resistor_SMD:R_0805_2012Metric"	""	""
+"R7"	"10k"	"Device:R"	"Resistor_SMD:R_0402_1005Metric"	"Resistor"	""
+"R8"	"10k"	"Device:R"	"Resistor_SMD:R_0402_1005Metric"	"Resistor"	""
+"R9"	"10k"	"Device:R"	"Resistor_SMD:R_0402_1005Metric"	"Resistor"	""
+"R10"	"10k"	"Device:R"	"Resistor_SMD:R_0402_1005Metric"	"Resistor"	""
+"U1"	"TLE4309"	"Horticulture-rescue:TLE4309-Driver_LED-test-rescue"	"Package_TO_SOT_SMD:TO-263-7_TabPin4"	""	""
+"U2"	"TLE4309"	"Horticulture-rescue:TLE4309-Driver_LED-test-rescue"	"Package_TO_SOT_SMD:TO-263-7_TabPin4"	""	""
+"U3"	"TLE4309"	"Horticulture-rescue:TLE4309-Driver_LED-test-rescue"	"Package_TO_SOT_SMD:TO-263-7_TabPin4"	""	""
+"U4"	"TLE4309"	"Horticulture-rescue:TLE4309-Driver_LED-test-rescue"	"Package_TO_SOT_SMD:TO-263-7_TabPin4"	""	""
+"U5"	"PCA9633DP2"	"Horticulture-rescue:nrf-led-feather-rescue_PCA9633DP2-i2c-led-feather-cache"	"Package_TO_SOT_SMD:SOT-552-1-nxp"	""	""
+"U6"	"MCP1703A-1502_SOT223"	"Regulator_Linear:MCP1703A-1502_SOT223"	"Package_TO_SOT_SMD:SOT-223-3_TabPin2"	"Low Quiescent Current LDO Regulator, 1.5V, 250mA, Vin<=16V, SOT-223"	""
+"VR1"	"TPS560430X3FDBV"	"Horticulture-rescue:TPS560430X3FDBV-Regulator_Switching"	"Package_TO_SOT_SMD:SOT-23-6"	""	""
