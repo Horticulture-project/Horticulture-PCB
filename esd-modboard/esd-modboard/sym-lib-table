@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "esd-modboard-rescue")(type "KiCad")(uri "${KIPRJMOD}/esd-modboard-rescue.kicad_sym")(options "")(descr ""))
+)
