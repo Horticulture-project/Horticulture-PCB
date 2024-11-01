@@ -11424,7 +11424,7 @@
 		(at 227.35 91.12 -90)
 		(descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade side entry")
-		(property "Reference" "3.3v_i2c4"
+		(property "Reference" "3_3v_i2c3"
 			(at 0 3.1 90)
 			(layer "B.SilkS")
 			(uuid "7dc880bc-e7eb-4cce-8d8c-0b65a9dd788e")
@@ -11449,7 +11449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac700915-3685-4320-88cc-de963757ffc9")
@@ -11461,7 +11461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05a1492f-23b0-409a-bb79-7ef3dbfa476f")
@@ -11473,7 +11473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed89e49a-101d-4ba1-816b-51ebc77c4b66")
@@ -12002,7 +12002,7 @@
 		(at 218.85 91.12 -90)
 		(descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade side entry")
-		(property "Reference" "3.3v_i2c2"
+		(property "Reference" "3_3v_i2c2"
 			(at 0 3.1 90)
 			(layer "B.SilkS")
 			(uuid "f3628265-0155-43e2-a467-c40ff783e265")
@@ -12027,7 +12027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6d8c11c-d78f-4423-9aa0-021be1e5828b")
@@ -12039,7 +12039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3fb8db7-f4a3-457d-baec-90b082afd401")
@@ -12051,7 +12051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29b2d4ab-bf19-4ad5-a9b7-d2e15fa3f47b")
@@ -12580,7 +12580,7 @@
 		(at 235.85 91.12 -90)
 		(descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade side entry")
-		(property "Reference" "3.3v_i2c3"
+		(property "Reference" "3_3v_i2c4"
 			(at 0 3.1 90)
 			(layer "B.SilkS")
 			(uuid "4780a290-d25c-4459-9579-eba3f7678762")
@@ -12605,7 +12605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1d43c36-bb8d-418a-acab-40ff4a1e11c1")
@@ -12617,7 +12617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6830d9c5-b9b0-4a9c-8898-062bde50d1b0")
@@ -12629,7 +12629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "adf73f2b-2ba1-4380-96e4-542e4497e7a1")
@@ -13158,7 +13158,7 @@
 		(at 210.35 91.12 -90)
 		(descr "Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade side entry")
-		(property "Reference" "3.3v_i2c1"
+		(property "Reference" "3_3v_i2c1"
 			(at 0 3.1 90)
 			(layer "B.SilkS")
 			(uuid "0fc5db66-6188-4c1f-bb14-0868bef113eb")
@@ -13183,7 +13183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdc8f0d7-3608-4c64-9e3a-d1974adf4221")
@@ -13195,7 +13195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a37a2069-7b73-4d03-abe6-f671c68ded3b")
@@ -13207,7 +13207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "770ccdf5-2abb-4d10-9851-fc0063f3831d")
