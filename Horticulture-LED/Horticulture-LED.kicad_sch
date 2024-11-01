@@ -245,6 +245,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3267,7 +3464,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 246.38) (xy 328.93 246.38)
+			(xy 363.22 243.84) (xy 328.93 243.84)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +3914,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 189.23) (xy 363.22 246.38)
+			(xy 363.22 180.34) (xy 363.22 243.84)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +4054,7 @@
 	)
 	(polyline
 		(pts
-			(xy 328.93 189.23) (xy 328.93 246.38)
+			(xy 328.93 180.34) (xy 328.93 243.84)
 		)
 		(stroke
 			(width 0)
@@ -4037,7 +4234,7 @@
 	)
 	(polyline
 		(pts
-			(xy 363.22 189.23) (xy 328.93 189.23)
+			(xy 363.22 180.34) (xy 328.93 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4519,7 +4716,7 @@
 	)
 	(text "i2c outputs (picoblade)"
 		(exclude_from_sim no)
-		(at 330.2 191.77 0)
+		(at 330.2 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4550,28 +4747,6 @@
 		)
 		(uuid "be4b72db-0e02-4d9b-844a-aff689b4e648")
 	)
-	(global_label "I2c-SDA"
-		(shape input)
-		(at 353.06 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ceb97d6-1b0f-4b71-921e-b0955c30c998")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.4344 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UC-pwm4"
 		(shape input)
 		(at 68.58 146.05 180)
@@ -4590,28 +4765,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2c-SCL"
-		(shape input)
-		(at 353.06 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1bdd5841-68b7-42e2-9447-cbdb608d8a08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.3739 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4660,24 +4813,24 @@
 			)
 		)
 	)
-	(global_label "I2c-SDA"
+	(global_label "+3.3V"
 		(shape input)
-		(at 353.06 236.22 0)
+		(at 341.63 205.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "1e48966e-d29d-4521-8939-ec8ac570431d")
+		(uuid "1ef92412-a2bb-4d35-8708-325b6d38443a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.4344 236.22 0)
+			(at 333.6142 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4717,6 +4870,28 @@
 		(uuid "2e0a9f64-1b78-4597-8d50-d12d2268a95a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.4824 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 341.63 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e36c17e-c321-4c6e-ba3d-f245ecdb4234")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.6142 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,6 +5011,28 @@
 			)
 		)
 	)
+	(global_label "I2c-SDA"
+		(shape input)
+		(at 341.63 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cfce883-ee76-4911-acc7-1885eb3e08dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.2556 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 369.57 162.56 270)
@@ -4880,46 +5077,24 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "I2c-SCL"
 		(shape input)
-		(at 353.06 199.39 0)
+		(at 341.63 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "501880c3-8633-456f-9add-0e8fa1932ba6")
+		(uuid "53ae2172-e9fc-4119-8ef3-f88bdcdda569")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.0758 199.39 0)
+			(at 331.3161 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2c-SDA"
-		(shape input)
-		(at 353.06 196.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "53e34696-241f-47e5-a477-f469335c8a61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.4344 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4942,6 +5117,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2c-SDA"
+		(shape input)
+		(at 341.63 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59ec960b-1297-4d39-9b84-c44c5e7eca87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.2556 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4981,28 +5178,6 @@
 		(uuid "72508b1f-1505-46cb-9d37-2081c5a12aca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 363.4344 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 353.06 238.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a879184-fad8-4feb-afb5-86fe8d34f1f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.0758 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,22 +5255,44 @@
 	)
 	(global_label "I2c-SCL"
 		(shape input)
-		(at 353.06 194.31 0)
+		(at 341.63 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "88002554-c459-46e5-8b22-6ea6fe07fd4c")
+		(uuid "8c4791a5-56a3-4a38-87b9-2b12a726b790")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.3739 194.31 0)
+			(at 331.3161 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 341.63 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8de8abc4-0b8e-4534-8db7-2e15351b65db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.6142 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5122,28 +5319,6 @@
 			)
 		)
 	)
-	(global_label "I2c-SDA"
-		(shape input)
-		(at 353.06 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "955cc99e-a129-42cf-abc7-aa99813fdb5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.4344 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2c-SCL"
 		(shape input)
 		(at 39.37 29.21 0)
@@ -5157,28 +5332,6 @@
 		(uuid "9cbf35b8-f4d3-42a3-bb16-04ffd03fd8fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.6839 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2c-SCL"
-		(shape input)
-		(at 353.06 233.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a62609cd-29b7-4918-b97d-7b2404ba61cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.3739 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,6 +5365,28 @@
 	)
 	(global_label "I2c-SDA"
 		(shape input)
+		(at 341.63 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b10976e4-a8c7-4fdb-96de-8797980c034e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.2556 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2c-SDA"
+		(shape input)
 		(at 39.37 31.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5223,50 +5398,6 @@
 		(uuid "b1ddb058-f7b2-429c-9489-f4e2242ad7e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.7444 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 353.06 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b59f18ce-2e34-4b6e-b14d-8d73b8268179")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.0758 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2c-SCL"
-		(shape input)
-		(at 353.06 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8b961e9-8a60-45fc-999a-a7a3baff4e0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.3739 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,6 +5451,50 @@
 			)
 		)
 	)
+	(global_label "I2c-SDA"
+		(shape input)
+		(at 341.63 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c33b2492-f1a9-4453-9920-3c09ce8cd97c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.2556 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2c-SCL"
+		(shape input)
+		(at 341.63 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c35db76f-28f9-47f8-97b7-d6e2a3087b6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.3161 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 118.11 219.71 0)
@@ -5333,28 +5508,6 @@
 		(uuid "c71f56c1-5b7c-4373-9716-fffac482104c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.1258 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 353.06 226.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d1eca865-05c5-48a4-96cf-ed5f8a640e25")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.0758 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,6 +5673,28 @@
 	)
 	(global_label "I2c-SCL"
 		(shape input)
+		(at 341.63 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f10ed99f-da67-4b68-90af-d0c8d8436667")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.3161 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2c-SCL"
+		(shape input)
 		(at 349.25 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5553,6 +5728,28 @@
 		(uuid "f64497d1-1d62-44a4-8e5e-6fba4ebc969a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 285.2938 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 341.63 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f81435ce-ed1e-43a5-9728-97d2512e773e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.6142 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,146 +9849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Male")
-		(at 347.98 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006008a5a0")
-		(property "Reference" "3_3v_i2c1"
-			(at 347.2688 199.8472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Male"
-			(at 347.2688 197.5358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
-			(at 347.98 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 347.98 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e4a1739-fbcb-4101-8bb4-4a741cb898fb")
-		)
-		(pin "2"
-			(uuid "e8afcab6-de9c-4817-8bef-e17660351ece")
-		)
-		(pin "3"
-			(uuid "0105d941-5d5a-4d59-affb-f30e1bb44e51")
-		)
-		(pin "4"
-			(uuid "04f2e26f-5c63-4ec2-ac3e-3302b942de6d")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "3_3v_i2c1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 353.06 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000600c4853")
-		(property "Reference" "#PWR0118"
-			(at 359.41 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 356.87 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53eb90bf-6a0a-4e24-a8e2-69d730088d65")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 52.07 90)
 		(unit 1)
@@ -10820,426 +10877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 353.06 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000610cf6db")
-		(property "Reference" "#PWR0121"
-			(at 359.41 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 356.87 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90cb83dc-1a11-45a5-97ad-621fae129bf9")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Male")
-		(at 347.98 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000610cf6e5")
-		(property "Reference" "3_3v_i2c2"
-			(at 347.2688 213.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Male"
-			(at 347.2688 211.5058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
-			(at 347.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 347.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "427aa9d6-e998-4da6-91fa-7d5a0801f566")
-		)
-		(pin "2"
-			(uuid "9fb734cc-b170-47bd-9e75-57b6ea379ba1")
-		)
-		(pin "3"
-			(uuid "a5b742f3-f79e-4eab-98b1-2a8b131ffd3e")
-		)
-		(pin "4"
-			(uuid "0731282d-d301-44e9-9695-aa41790843fa")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "3_3v_i2c2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 353.06 228.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000610d5067")
-		(property "Reference" "#PWR0122"
-			(at 359.41 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 356.87 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fd93906-40cb-4d39-a0d6-8d0f5fcf5c01")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Male")
-		(at 347.98 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000610d5071")
-		(property "Reference" "3_3v_i2c3"
-			(at 347.2688 226.5172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Male"
-			(at 347.2688 224.2058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
-			(at 347.98 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 347.98 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c66fd03a-304d-4ccf-a7b5-a6e16da0cf94")
-		)
-		(pin "2"
-			(uuid "16120cef-f140-4c5a-a97b-1b66f47121c6")
-		)
-		(pin "3"
-			(uuid "a82aead3-1c28-4bb1-af24-ec0cc6d09193")
-		)
-		(pin "4"
-			(uuid "4f364622-9d70-4c4a-b261-b8fc907c2bd6")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "3_3v_i2c3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 353.06 241.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000610dbe3d")
-		(property "Reference" "#PWR0126"
-			(at 359.41 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 356.87 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f16486a1-73ff-4db4-9bf1-ba8e7da9ac52")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Male")
-		(at 347.98 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000610dbe47")
-		(property "Reference" "3_3v_i2c4"
-			(at 347.2688 239.2172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Male"
-			(at 347.2688 236.9058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
-			(at 347.98 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 347.98 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f04006fa-35fd-447b-9e95-975e0dec67c8")
-		)
-		(pin "2"
-			(uuid "9b664edd-9026-46e2-9164-e2b4169d7d7f")
-		)
-		(pin "3"
-			(uuid "514e2018-feed-4760-81b4-3215fcc3bfa9")
-		)
-		(pin "4"
-			(uuid "c8b29e06-4b17-4bf6-bdbd-dace57e07aaf")
-		)
-		(instances
-			(project ""
-				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
-					(reference "3_3v_i2c4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Horticulture-rescue:LED-Device-test-rescue")
 		(at 219.71 139.7 180)
 		(unit 1)
@@ -11440,6 +11077,570 @@
 			(project ""
 				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
 					(reference "Cldo1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 346.71 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bac4c48-3e53-4631-9f4b-d729bdaeefba")
+		(property "Reference" "J2"
+			(at 349.25 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 349.25 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+			(at 346.71 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 346.71 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "38550248-0250-4df8-8c4d-a141ac6456e2")
+		)
+		(pin "2"
+			(uuid "930d04e2-8117-4908-8188-7a3c84945998")
+		)
+		(pin "1"
+			(uuid "913007d3-f039-48f1-8ac0-b3e4fc06f97a")
+		)
+		(pin "3"
+			(uuid "cc28af24-d4d0-49b2-b648-2358ae2520ef")
+		)
+		(instances
+			(project "Horticulture-LED"
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 341.63 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49eaf32f-1d5a-42f8-b334-2468f49ab738")
+		(property "Reference" "#PWR02"
+			(at 341.63 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "614e1b71-1466-4850-ba81-eb5bc7eee065")
+		)
+		(instances
+			(project "Horticulture-LED"
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 341.63 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d7484d2-f027-409d-b8ac-40676014512c")
+		(property "Reference" "#PWR03"
+			(at 341.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47ab3891-138a-4a39-9a64-0da1b4718c16")
+		)
+		(instances
+			(project "Horticulture-LED"
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 341.63 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b9fdb5b-7f1d-4996-a957-01e9fe90f927")
+		(property "Reference" "#PWR04"
+			(at 341.63 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f289466-6e67-46bc-9663-4d2bc9fbc803")
+		)
+		(instances
+			(project "Horticulture-LED"
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 346.71 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfdda869-ec4d-4414-a632-eeadfb1ce28c")
+		(property "Reference" "J5"
+			(at 349.25 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 349.25 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+			(at 346.71 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 346.71 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b628a4c6-7740-4db2-809c-30f55b7a206f")
+		)
+		(pin "2"
+			(uuid "cfc963e6-3e2a-4229-b5b6-a6eb3e7410ff")
+		)
+		(pin "1"
+			(uuid "dc258fea-ca6e-4f1d-a44d-89bebabb10b7")
+		)
+		(pin "3"
+			(uuid "a6416899-0ca1-45af-9e5b-f57743e3bc04")
+		)
+		(instances
+			(project "Horticulture-LED"
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 341.63 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8ed9e89-dd53-4b65-b86b-f53001c58f53")
+		(property "Reference" "#PWR01"
+			(at 341.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e3fcba6-a804-4388-a8c1-85d2f7848101")
+		)
+		(instances
+			(project "Horticulture-LED"
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 346.71 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5a53658-a880-480c-ac81-b07204ec6698")
+		(property "Reference" "J1"
+			(at 349.25 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 349.25 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+			(at 346.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 346.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7de1dd5c-4a17-400b-80dd-78255a5e1031")
+		)
+		(pin "2"
+			(uuid "0465f780-b05e-4ac6-b876-002abfecb75a")
+		)
+		(pin "1"
+			(uuid "12c29c4b-089f-4ff3-8345-b1d68efd6871")
+		)
+		(pin "3"
+			(uuid "c137413f-c61d-4e47-8cef-a8744700ee9b")
+		)
+		(instances
+			(project ""
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 346.71 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f55d350f-7089-4079-86ab-7ee77973f640")
+		(property "Reference" "J6"
+			(at 349.25 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 349.25 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+			(at 346.71 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 346.71 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "76fed74d-19e7-453a-8f07-95ce7b197c15")
+		)
+		(pin "2"
+			(uuid "e4c5d6c7-1c23-48c1-be64-0f5e8594715f")
+		)
+		(pin "1"
+			(uuid "49b947b8-a772-4ae9-b527-07644596126d")
+		)
+		(pin "3"
+			(uuid "e03d1f5c-4d2b-46d8-848d-ea2d9df3eacc")
+		)
+		(instances
+			(project "Horticulture-LED"
+				(path "/922058ca-d09a-45fd-8394-05f3e2c1e03a"
+					(reference "J6")
 					(unit 1)
 				)
 			)
