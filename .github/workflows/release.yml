@@ -1,0 +1,86 @@
+name: "KiCad CI/CD"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    paths:
+      - '$BOARD_NAME/*.kicad_sch'
+      - '$BOARD_NAME/*.kicad_pcb'
+      - '$BOARD_NAME/*.kibot.yaml'
+      - '$BOARD_NAME/Makefile'
+      - '.github/workflows/release.yml'
+  pull_request:
+    paths:
+      - '$BOARD_NAME/*.kicad_sch'
+      - '$BOARD_NAME/*.kicad_pcb'
+      - '$BOARD_NAME/*.kibot.yaml'
+      - '$BOARD_NAME/Makefile'
+      - '.github/workflows/release.yml'
+
+env:
+  BOARD_NAME: Horticulture-LED
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        # Required - kibot config file
+        config: ${{env.BOARD_NAME}}/standard_pcb.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: output
+        # optional - schematic file
+        schema: "${{env.BOARD_NAME}}/${{env.BOARD_NAME}}.kicad_sch"
+        # optional - PCB design file
+        board: '${{env.BOARD_NAME}}/${{env.BOARD_NAME}}.kicad_pcb'
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: Fabrication
+        path: |
+          output/
+        if-no-files-found: warn
+    - name: Prepare release files
+      run: |
+        cd output
+        cp Gerbers -R /tmp/Plot
+        cp Schematic.pdf /tmp/Schematic-${{env.BOARD_NAME}}-PCB.pdf
+        cp BoM/*ibom* /tmp/iBom-${{env.BOARD_NAME}}-PCB.html
+        cp BoM/*xlsx /tmp/${{env.BOARD_NAME}}-PCB-BoM.xlsx
+        cp 3D/*.step /tmp/${{env.BOARD_NAME}}-PCB.step
+        cp board_img/* /tmp/
+        cp ${{env.BOARD_NAME}}-drc* /tmp
+        cp ${{env.BOARD_NAME}}-erc* /tmp
+        cp ${{env.BOARD_NAME}}-F_Silkscreen.dxf /tmp
+        cd /tmp
+        zip -r Plot-${{env.BOARD_NAME}}-PCB.zip Plot
+        zip -r ${{env.BOARD_NAME}}-drc.zip ${{env.BOARD_NAME}}-drc*
+        zip -r ${{env.BOARD_NAME}}-erc.zip ${{env.BOARD_NAME}}-erc*
+        echo prepared for release
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          /tmp/Plot-${{env.BOARD_NAME}}-PCB.zip
+          /tmp/Schematic-${{env.BOARD_NAME}}-PCB.pdf
+          /tmp/iBom-${{env.BOARD_NAME}}-PCB.html
+          /tmp/${{env.BOARD_NAME}}-PCB.step
+          /tmp/${{env.BOARD_NAME}}-PCB-BoM.xlsx
+          /tmp/${{env.BOARD_NAME}}-top.jpg
+          /tmp/${{env.BOARD_NAME}}-top.svg
+          /tmp/${{env.BOARD_NAME}}-bottom.jpg
+          /tmp/${{env.BOARD_NAME}}-bottom.svg
+          /tmp/${{env.BOARD_NAME}}-erc.zip
+          /tmp/${{env.BOARD_NAME}}-drc.zip
+          /tmp/${{env.BOARD_NAME}}-F_Silkscreen.dxf
+
+        prerelease: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
